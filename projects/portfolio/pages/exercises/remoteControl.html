@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Remote Control</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap, css, js links -->
+    <link rel="stylesheet" href="../../bootstrap/3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../styles/template.css">
+    <link rel="stylesheet" href="../../styles/keyboard.css">
+    <script src="../../scripts/keyboard.js"></script>
+    <script src="../../scripts/remoteControl.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../exercises.html">Exercises</a></li>
+        <li><a href="../aboutus.html">About us</a></li>
+        <li><a href="https://elo.glu.nl" target="_blank">GLU elo</a></li>
+        <li><a href="#">Account</a></li>
+    </ul>
+
+    <div class="container" id="main">
+        <div class="jumbotron">
+            <h1>Keyboard Printing/Remote Control</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2>De opdracht</h2>
+                <pre>
+De opdracht was om een keyboard op het scherm te printen.
+Ik wil hier graag nog aan toevoegen dat het ook kan typen,
+maar dat komt nog wel.</pre>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row" id="deletable">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <button id="button" onclick="placeKeyboard()">Click me to show the keyboard!</button>
+            </div>
+        </div>
+        <div class="row" id="row1"></div>
+        <div class="row" id="row2"></div>
+        <div class="row" id="row3"></div>
+        <div class="row" id="enter"></div>
+        <button onclick="remoteControl()">click</button>
+    </div>
+</body>
+</html>
