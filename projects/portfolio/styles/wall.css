@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-top: 10px;
+}
+
+#wall {
+    width: 500px;
+    height: 300px;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+}
+
+#steen1, #steen2, #steen3, #steen4, #steen5 {
+    background-color: orange;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+}
