@@ -73,8 +73,10 @@ function getRandomColor() {
 function finishKeyboard() {
     row3.appendChild(createEmptyCol());
     var enter = document.getElementById("enter");
+    var result = document.getElementById("resultDiv");
 
     enter.appendChild(createEmptyCol());
+    result.appendChild(createEmptyCol());
 
     var expectedResult = document.createElement("div");
     expectedResult.className = "col-md-6";
@@ -83,6 +85,22 @@ function finishKeyboard() {
     var lblResult = document.createElement("p");
     lblResult.id = "expected";
     expectedResult.appendChild(lblResult);
+
+    var resultDiv = document.createElement("div");
+    resultDiv.className = "col-md-5";
+    result.appendChild(resultDiv);
+
+    var inputDiv = document.createElement("div");
+    inputDiv.className = "col-md-5";
+    result.appendChild(inputDiv);
+
+    var lblResult = document.createElement("p");
+    lblResult.id = "result";
+    resultDiv.appendChild(lblResult);
+
+    var lblInput = document.createElement("p");
+    lblInput.id = "input";
+    inputDiv.appendChild(lblInput);
 
     var uInput = document.createElement("div");
     uInput.className = "col-md-2";
@@ -104,22 +122,29 @@ function finishKeyboard() {
     btn.appendChild(button);
 
     enter.appendChild(createEmptyCol());
+    result.appendChild(createEmptyCol());
 }
 
-var directions = "";
-let row = 1;
-let letterIndex = 0;
-let wordIndex = 0;
-let keyIndex = 0;
+var directions;
+let row;
+let letterIndex;
+let wordIndex;
+let keyIndex;
 let myWord;
 
 const firstRow = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"];
 const secondRow = ["a", "s", "d", "f", "g", "h", "j", "k", "l"];
 const lastRow = ["z", "x", "c", "v", "b", "n", "m"];
 
-function remoteControl() {
+async function remoteControl() {
+    document.getElementById("btn").disabled = true;
+
     var word = document.getElementById("word").value;
     document.getElementById("expected").innerHTML = "Expected result: " + word;
+
+    var res = document.getElementById("result");
+    res.innerHTML = "Result: ";
+    var inp = document.getElementById("input");
 
     myWord = word.split("");
     directions = "";
@@ -128,11 +153,25 @@ function remoteControl() {
     wordIndex = 0;
     keyIndex = 0;
     
-    console.log(myWord);
     myWord.forEach(mover);
 
-    let dir = directions.substring(0, directions.length - 2);
+    let dir = directions.substring(0, directions.length - 1);
     console.log(dir);
+
+    row = 1;
+    keyIndex = 0;
+    var i = 0;
+
+    while (i < 1) {
+        dir = nextInput(dir, res, inp);
+        
+        if (dir == "")
+            i++;
+        
+        await new Promise(r => setTimeout(r, 1500));
+    }
+    inp.innerHTML = "Next input: NONE";
+    document.getElementById("btn").disabled = false;
 }
 
 function mover() {
@@ -151,9 +190,9 @@ function mover() {
 function goToFirstRow() {
     // Change rows
     if (row == 2)
-        directions += "up, ";
+        directions += "u,";
     else if (row == 3)
-        directions += "up, up, ";
+        directions += "u,u,";
     
     row = 1;
 
@@ -165,9 +204,9 @@ function goToFirstRow() {
 function goToSecondRow() {
     // Change rows
     if (row == 1)
-        directions += "down, ";
+        directions += "d,";
     else if (row == 3)
-        directions += "up, ";
+        directions += "u,";
     
     row = 2;
 
@@ -179,9 +218,9 @@ function goToSecondRow() {
 function goToLastRow() {
     // Change rows
     if (row == 1)
-        directions += "down, down, ";
+        directions += "d,d,";
     else if (row == 2)
-        directions += "down, ";
+        directions += "d,";
     
     row = 3;
 
@@ -195,14 +234,67 @@ function changeIndex() {
     
     while (!ready) {
         if (letterIndex < keyIndex) {
-            directions += "left, ";
+            directions += "l,";
             keyIndex--;
         } else if (letterIndex > keyIndex) {
-            directions += "right, ";
+            directions += "r,";
             keyIndex++;
         } else {
-            directions += "select, ";
+            directions += "s,";
             ready = true;
         }
     }
+}
+
+function nextInput(dir, res, inp) {
+    if (dir.substring(0, 1) == "u") {
+        inputUp(inp);
+    } else if (dir.substring(0, 1) == "d") {
+        inputDown(inp);
+    } else if (dir.substring(0, 1) == "l") {
+        inputLeft(inp);
+    } else if (dir.substring(0, 1) == "r") {
+        inputRight(inp);
+    } else if (dir.substring(0, 1) == "s") {
+        select(res, inp);
+    } else {
+        console.log("no hit");
+    }
+    return deleteInput(dir);
+}
+
+function inputUp(inp) {
+    inp.innerHTML = "Next input: UP";
+    row--;
+}
+
+function inputDown(inp) {
+    inp.innerHTML = "Next input: DOWN";
+    row++;
+}
+
+function inputLeft(inp) {
+    inp.innerHTML = "Next input: LEFT";
+    keyIndex--;
+}
+
+function inputRight(inp) {
+    inp.innerHTML = "Next input: RIGHT";
+    keyIndex++;
+}
+
+function select(res, inp) {
+    inp.innerHTML = "Next input: SELECT";
+    console.log(row);
+
+    if (row == 1)
+        res.innerHTML += firstRow[keyIndex];
+    else if (row == 2)
+        res.innerHTML += secondRow[keyIndex];
+    else if (row == 3)
+        res.innerHTML += lastRow[keyIndex];
+}
+
+function deleteInput(dir) {
+    return dir.substring(2);
 }

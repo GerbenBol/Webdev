@@ -8,14 +8,27 @@ h1 {
 
 #wall {
     width: 500px;
-    height: 300px;
+    height: 295px;
     background-color: #d9d9d9;
-    border: 1px solid black;
 }
 
-#steen1, #steen2, #steen3, #steen4, #steen5 {
+.stone {
     background-color: orange;
     width: 100px;
     height: 25px;
     display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.smallStone {
+    width: 80px;
+}
+
+.stoneEnd {
+    margin-right: 0px;
+}
+
+.wallRow {
+    display: flex;
 }
