@@ -1,3 +1,24 @@
+## **Patch: 0.1.2**
+*Branch: portfolio-exercises*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- I made a lot of changes today to my portfolio. More information in that changelog.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.1**
 *Branch: portfolio-exercises*
 
@@ -11,7 +32,6 @@
 
 ### *More in-depth information*
 ------------------------------
-
 1. Changelogs
 - I deleted the "changelogs" folder, because I thought it was better to work in 1 file for this.
 
