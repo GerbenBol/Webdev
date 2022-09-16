@@ -28,7 +28,7 @@ function placeKeyboard() {
         var elem = document.createElement("div");
         elem.className = "col-md-1 key";
         elem.innerHTML = key.value;
-        elem.style.backgroundColor = "#" + getRandomColor();
+        elem.style.backgroundColor = "#fff";//"#" + getRandomColor();
         placeElem(elem);
 
         i++;

@@ -52,10 +52,10 @@ body {
     background-color: rgb(0, 200, 255);
 }
 
-h1, h2 {
+h1, h2, pre {
     font-family: 'Playfair Display';
 }
 
-p {
+p, a, div {
     font-family: 'Merriweather';
 }

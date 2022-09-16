@@ -8,6 +8,35 @@ It's also an exercise for my JavaScript skills, which for now is looking a bit r
 
 ------------------------------
 
+## **Patch: 0.1.3**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Added workshop_1
+1. Added workshop_3
+1. Changed about me
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop_1
+- Project workshop_1 (also found in "/projects/module_1/workshop_1") has been added to this project.
+
+2. Workshop_2
+- Project workshop_3 (also found in "/projects/module_1/workshop_3") has been added to this project.
+
+3. About me
+- I've changed a lot about the about me page, because it didn't really look good. I'm releasing the idea of a carousel element, because it's way too hard to set up. Now making different pages that help explain in more detail.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.2**
 *Branch: **portfolio-exercises***
 

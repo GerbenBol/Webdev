@@ -1,3 +1,24 @@
+## **Patch: 0.1.3**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog. I've also merged branch "portfolio-exercises" into development.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.2**
 *Branch: portfolio-exercises*
 
