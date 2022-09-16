@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-top: 10px;
+}
+
+#wall {
+    width: 500px;
+    height: 295px;
+    background-color: #d9d9d9;
+}
+
+.stone {
+    background-color: orange;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.smallStone {
+    width: 80px;
+}
+
+.stoneEnd {
+    margin-right: 0px;
+}
+
+.wallRow {
+    display: flex;
+}
