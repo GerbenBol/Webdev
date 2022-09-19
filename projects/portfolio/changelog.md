@@ -1,10 +1,31 @@
 # *Explanation of project*
 ------------------------------
-I've started this project because I was bored, and thus decided to just start working
-on a random webpage I could show. When I was put to work on some harder exercises I
-decided to make a portfolio out of it. I'm going to style it as I like it, and using
-Bootstrap is nice, so I don't have to make a carousel view out of nothing (for example).
-It's also an exercise for my JavaScript skills, which for now is looking a bit rough.
+I've started this project because I was bored, and thus decided to just start working on a random webpage I could show. When I was put to work on some harder exercises I decided to make a portfolio out of it. I'm going to style it as I like it, and using Bootstrap is nice, so I don't have to make a carousel view out of nothing (for example). It's also an exercise for my JavaScript skills, which for now is looking a bit rough.
+
+------------------------------
+
+## **Patch: 0.1.4**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. "projects" folder
+1. About me page
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. "projects" folder
+- Added a new folder, in this folder will be the pages for the projects I made. This is made for the about me.
+
+2. About me
+- I've worked on the about me page, and will be working on this for the remainder of the week. I'm working mostly in JavaScript at the moment, because I want to print the different projects with this. Because of this, I'm also working with Json, which seemed like a little bit of a problem at first, but I managed to fix it. This was of course with the help of StackOverflow.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
 
 ------------------------------
 

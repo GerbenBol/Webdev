@@ -1,3 +1,29 @@
+## **Patch: 0.1.4**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1.Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+### **NOTE:**
+From next module I will use a different patchname system, since the current one is confusing me. Yes, it confuses the person that made it. I know. Weird. That's why it's getting a change, more information on the first patch in the new module about this.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.3**
 *Branch: first-module*
 

@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project {
+    border-radius: 10px;
+    background-color: aqua;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+}
