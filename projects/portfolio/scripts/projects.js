@@ -15,7 +15,6 @@ function printProjects() {
 
     readTextFile("../data/projects.json", function(text) {
         data = JSON.parse(text);
-        console.log(data);
         var parent = document.getElementById("projects");
 
         if (data === null) {
@@ -28,12 +27,25 @@ function printProjects() {
         data.forEach(key => {
             var elem = document.createElement("div");
             elem.className = "project";
+
             var header = document.createElement("h1");
             header.innerHTML = key.projectName;
             elem.appendChild(header);
+
             var text = document.createElement("p");
             text.innerHTML = key.description;
             elem.appendChild(text);
+
+            var button = document.createElement("div");
+            button.className = "btn";
+            elem.appendChild(button);
+
+            var buttontext = document.createElement("a");
+            var loc = window.location.href;
+            buttontext.href = loc.substring(0, loc.lastIndexOf('/')) + "/projects/" + key.file + "?id=" + key.index;
+            buttontext.innerHTML = "Go to this project! &raquo;";
+            button.appendChild(buttontext);
+
             parent.appendChild(elem);
 
             if (index >= 3)

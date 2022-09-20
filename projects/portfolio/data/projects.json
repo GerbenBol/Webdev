@@ -2,21 +2,51 @@
     {
         "index":1,
         "projectName":"DnDRollSystem",
-        "description":"A program that helps you play Dungeons and Dragons online with your friends. Made in C#."
+        "file":"rollsystem.html",
+        "amountProjects":1,
+        "paragraphs":3,
+        "description":
+        [
+            "Together with a friend of mine, I made an application to make it easier to play Dungeons & Dragons online with your friends. These kind of apps/webapps already exist, but we wanted to make our own. We've been producing it using Git and Discord for communications.",
+            "It's a WinForms application, made in C#. We chose this language, because for both of us it's almost our most used language. It was my first language, but his was Java. Short after that he learned C#, so we've both worked in it a while, and understand a lot about it. For editor, we decided to use Visual Studio, because this is the easiest/ best to use with C/C#/C++.",
+            "We started working apart, he was doing server side while I was working with WinForms. I made it work alone, and then once he was ready we converted it really fast. This was all in a timespan of 1.5 week. After that, we've sort of stopped making it, but I do want to pick it up again. There are some more things I want to add, such as an actual board, and a view only visible to the DM (Dungeon Master (Game Master/ Game Leader))."
+        ],
+        "language":"C#"
     },
     {
         "index":2,
-        "projectName":"proj2",
-        "description":"this be project 2"
+        "projectName":"Sportify",
+        "file":"sportify.html",
+        "amountProjects":1,
+        "paragraphs":3,
+        "description":"A Python program that connects with your Spotify to help you listen to your favorite songs while working out.",
+        "language":"Python"
     },
     {
         "index":3,
-        "projectName":"proj3",
-        "description":"this be project 3"
+        "projectName":"Wilkan Chess",
+        "file":"wilkan.html",
+        "amountProjects":1,
+        "paragraphs":3,
+        "description":"An ASP.Net, C# site that is kind of like chess.com, but here there are also leaderboards and more gamemodes.",
+        "language":"C#"
     },
     {
         "index":4,
-        "projectName":"proj4",
-        "description":"this be project 4"
+        "projectName":"TheaTick",
+        "file":"theatick.html",
+        "amountProjects":1,
+        "paragraphs":3,
+        "description":"An ASP.Net, C# site that helps you buy tickets for concerts.",
+        "language":"C#"
+    },
+    {
+        "index":5,
+        "projectName":"MWProjects",
+        "file":"mwprojects.html",
+        "amountProjects":2,
+        "paragraphs":3,
+        "description":"I've done two projects for this company, both in WordPress, PHP.",
+        "language":"PHP"
     }
 ]

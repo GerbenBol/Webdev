@@ -3,6 +3,27 @@
 
 ------------------------------
 
+## **Patch: 0.1.5**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ### *Changes this patch:*
 1.Portfolio
 

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Charmonman");
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.big-div {
+    display: flex;
+    padding: 25px;
+}
+
+.block-left, .block-right {
+    background-color: aqua;
+    height: fit-content;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.block-left {
+    margin-right: 10px;
+}
+
+.block-right {
+    float: right;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    height: fit-content;
+    margin: 10px;
+}
+
+.text {
+    margin: auto 10px;
+    height: fit-content;
+    background-color: rgb(0, 210, 210);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nicep {
+    font-family: 'Charmonman';
+    font-size: 50px;
+}

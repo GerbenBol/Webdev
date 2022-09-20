@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 0.1.5**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Projects
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Projects
+- I've been working on the individual pages for the projects I've done.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.4**
 *Branch: first-module*
 
