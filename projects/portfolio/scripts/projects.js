@@ -33,7 +33,7 @@ function printProjects() {
             elem.appendChild(header);
 
             var text = document.createElement("p");
-            text.innerHTML = key.description;
+            text.innerHTML = key.shortDesc;
             elem.appendChild(text);
 
             var button = document.createElement("div");

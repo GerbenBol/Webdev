@@ -54,3 +54,12 @@ p {
     padding: 5px;
     border-radius: 10px;
 }
+
+.nodec {
+    text-decoration: none;
+    color: rgb(210, 0, 0);
+}
+
+.nodec:hover {
+    color: rgb(210, 0, 0);
+}

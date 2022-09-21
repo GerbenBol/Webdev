@@ -1,5 +1,26 @@
-## **Patch: 0.1.4**
+## **Patch: 0.1.6**
 *Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+### **NOTE:**
+This patch is probably the last, if not definitely. This means these changes are going to be merged to the main branch. I'm going to change a couple things, but not much *big* things.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
 
 ------------------------------
 
@@ -24,6 +45,10 @@ That marks the end of this patch, thanks for reading!
 
 ------------------------------
 
+## **Patch: 0.1.4**
+*Branch: first-module*
+
+------------------------------
 ### *Changes this patch:*
 1.Portfolio
 

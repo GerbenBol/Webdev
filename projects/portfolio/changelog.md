@@ -4,6 +4,36 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 0.1.6**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Projects
+1. Home page
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Projects
+- I've finished the printing of the more detailed project pages, and this works how I want it to now.
+
+2. Home page
+- I discovered that the home page (index.html) wasn't complete yet. Thus, I changed it, and now it completely fits into the rest of the site.
+
+------------------------------
+
+### **NOTE:**
+The only thing I'm going to change is the remote control. I'm going to try to make it show at which key the computer is at that time.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.5**
 *Branch: first-module*
 

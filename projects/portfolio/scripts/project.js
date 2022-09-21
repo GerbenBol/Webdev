@@ -49,19 +49,19 @@ function printer(data) {
     main.appendChild(hr);
 
     // Content
+    if (data.amountProjects > 1)
+        for (var i = 1; i <= data.amountProjects; i++)
+            printDoubleContent(main, data, i - 1);
+    else
+        printContent(main, data)
+}
+
+function printContent(main, data) {
+    // Project
     var divider = document.createElement("div");
     divider.className = "big-div";
     main.appendChild(divider);
-
-    // Description
-    if (data.amountProjects > 1)
-        for (var i = 1; i < data.amountProjects; i++)
-            printDoubleContent(data, divider);
-    else
-        printContent(data, divider)
-}
-
-function printContent(data, divider) {
+    
     // Description
     // Left side
     var blockl = document.createElement("div");
@@ -103,6 +103,65 @@ function printContent(data, divider) {
     //img(?)
 }
 
-function printDoubleContent(data, divider) {
+function printDoubleContent(main, data, i) {
+    var project = data.projects[i];
 
+    // Project
+    var divider = document.createElement("div");
+    divider.className = "big-div";
+    main.appendChild(divider);
+
+    // Content
+    var block = document.createElement("div");
+    block.className = "block";
+    divider.appendChild(block);
+
+    var grid = document.createElement("div");
+    grid.className = "grid";
+    block.appendChild(grid);
+
+    var text = document.createElement("div");
+    text.className = "text";
+    grid.appendChild(text);
+    
+    // Header
+    var header = document.createElement("h1");
+    header.innerHTML = project.projectName;
+    text.appendChild(header);
+
+    // Description
+    for (var x = 0; x < project.paragraphs; x++) {
+        var p = document.createElement("p");
+        p.innerHTML = project.description[x];
+        text.appendChild(p);
+    }
+
+    if (i === 0) {
+        createInBetween(main, data);
+    }
+}
+
+function createInBetween(main, data) {
+    // Project
+    var divider = document.createElement("div");
+    divider.className = "big-div";
+    main.appendChild(divider);
+
+    // Content
+    var block = document.createElement("div");
+    block.className = "block";
+    divider.appendChild(block);
+
+    var grid = document.createElement("div");
+    grid.className = "grid";
+    block.appendChild(grid);
+
+    var text = document.createElement("div");
+    text.className = "text";
+    grid.appendChild(text);
+
+    var p = document.createElement("p");
+    p.className = "nicep";
+    p.innerHTML = data.language;
+    text.appendChild(p);
 }
