@@ -1,3 +1,96 @@
+## **Patch: 0.1.6**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+### **NOTE:**
+This patch is probably the last, if not definitely. This means these changes are going to be merged to the main branch. I'm going to change a couple things, but not much *big* things.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 0.1.5**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 0.1.4**
+*Branch: first-module*
+
+------------------------------
+### *Changes this patch:*
+1.Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+### **NOTE:**
+From next module I will use a different patchname system, since the current one is confusing me. Yes, it confuses the person that made it. I know. Weird. That's why it's getting a change, more information on the first patch in the new module about this.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 0.1.3**
+*Branch: first-module*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- Project portfolio has been changed. More information in that changelog. I've also merged branch "portfolio-exercises" into development.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.2**
 *Branch: portfolio-exercises*
 

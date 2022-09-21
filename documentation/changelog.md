@@ -1,11 +1,11 @@
-Latest patch: 0.1 (startup)
-Branch: main
-(patch = update)
+## **Patch: 0.1.0**
+*Branch: master*
 
-##############################
+------------------------------
 
-no updates yet. folder is empty.
+### *Changes this patch:*
+No changes yet!
 
-##############################
+------------------------------
 
-End of changelog, thanks for reading!
+That marks the end of this patch, thanks for reading!

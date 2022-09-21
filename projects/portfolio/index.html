@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="bootstrap/5/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/template.css">
     <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/index.js"></script>
 </head>
 <body>
     <!-- navbar -->
@@ -22,27 +23,58 @@
     <div class="main">
         <div class="container">
             <div class="jumbotron">
-                <h1>Home</h1>
-                <h2>Welcome!</h2>
+                <h1 id="header" onclick="headerFunk()"></h1>
+                <h2>Welcome to my portfolio!</h2>
             </div>
 
-            <div class="row">
-                <div class="col-md-5">
-                    <h2>Paragraph 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                    </p>
+            <hr>
+
+            <div class="big-div">
+                <div class="block-left">
+                    <div class="grid">
+                        <div class="text">
+                            <p>
+                                This site is all about me, Gerben Bol! Welcome! On this site you can find
+                                a whole lot, such as more information about me, and projects I've done for
+                                the time I've been studying at GLU. Very interesting, I know.
+                            </p>
+                            <h2><b>About me</b></h2>
+                            <p>
+                                Would you like to know more about me? Understandable, that's probably
+                                why you got here in the first place. Click the button under this, or
+                                click <a class="nicea" href="pages/aboutme.html">this</a> to go to the
+                                about me page. Though, we all know you're epic if you already noticed
+                                the top left, where another link to it is. Right there, in the
+                                navigation bar.
+                            </p>
+                            <div class="button">
+                                <a href="pages/aboutme.html">Go to about me page &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-5">
-                    <h2>Paragraph 2</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                    </p>
+                <div class="block-right">
+                    <div class="grid">
+                        <div class="text">
+                            <h2><b>Exercises</b></h2>
+                            <p>
+                                I've been doing projects, as I said before, but did you know,
+                                they are all stored here, AND on GitHub. <a class="nicea" href="pages/exercises.html">
+                                This</a> is the link to the "exercises" pages and, as you might've
+                                guessed, it takes you to the page where all the exercises I've done
+                                for school are. Is this interesting? Well, I think it is. Take a look!
+                            </p>
+                            <div class="button">
+                                <a href="pages/exercises.html">Go to exercises &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>headerFunk();</script>
 
     <div class="container">
         <footer>

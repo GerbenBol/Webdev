@@ -1,0 +1,94 @@
+[
+    {
+        "index":1,
+        "projectName":"DnDRollSystem",
+        "file":"rollsystem.html",
+        "amountProjects":1,
+        "shortDesc":"A C# app that helps you with playing Dungeons and Dragons online with your friends. Made with a friend of mine, so not for school.",
+        "language":"C#",
+        "paragraphs":3,
+        "description":
+        [
+            "Together with a friend of mine, I made an application to make it easier to play Dungeons & Dragons online with your friends. These kind of apps/webapps already exist, but we wanted to make our own. We've been using Git for storage and version control and Discord for communications.",
+            "It's a WinForms application, made in C#. We chose this language, because for both of us it's almost our most used language. It was my first language, but his was Java. Short after that he learned C#, so we've both worked in it a while, and understand a lot about it. For editor, we decided to use Visual Studio, because this is the easiest/ best to use with C/C#/C++.",
+            "We started working apart, he was doing server side while I was working with WinForms. I made it work alone, and then once he was ready we converted it really fast. This was all in a timespan of 1.5 week. After that, we've sort of stopped making it, but I do want to pick it up again. There are some more things I want to add, such as an actual board, and a view only visible to the DM (Dungeon Master (Game Master/ Game Leader))."
+        ]
+    },
+    {
+        "index":2,
+        "projectName":"Sportify",
+        "file":"sportify.html",
+        "amountProjects":1,
+        "shortDesc":"A Python program that connects with your Spotify to help you listen to your favorite songs while working out.",
+        "language":"Python",
+        "paragraphs":3,
+        "description":
+        [
+            "This project was a lot of work, for not a lot of results. The idea we had was to make a site, that helps people work while listening to music. It uses Spotify and a SmartWatch.",
+            "We tried to make C# work with Spotify, but that didn't really work out. In the end we found out that using Python was the best method, and after that it started going really well. We were also looking to work with SmartWatch, which was pretty hard. In the end we did it, and it works pretty well.",
+            "The webapp looks at your activity on your SmartWatch, and from that it sees when you were most active. If you were very active at that time, it stores that time, and then checks if you were listening to music at that time. It then looks at which music you were listening to, and from that it recommends some songs, that it automatically puts in a special playlist."
+        ]
+    },
+    {
+        "index":3,
+        "projectName":"Wilkan Chess",
+        "file":"wilkan.html",
+        "amountProjects":1,
+        "shortDesc":"An ASP.Net, C# site that is kind of like chess.com, but here there are also leaderboards and more gamemodes.",
+        "language":"C#",
+        "paragraphs":3,
+        "description":
+        [
+            "For this project, I had to make a webapp using ASP.Net C#. I decided it might be fun to make a site that functions a lot like chess.com, but there were extra features. For example there would be leaderboards, and there would be more gamemodes.",
+            "The extra gamemodes would include for example shogi. Shogi is a sort of Japanese chess, which changes a couple of things. I play it sometimes, but since there is not really a good site to do it, it's hard to do online versus for example friends, or just random people.",
+            "I also wanted to look at player's rating, and based off that make matchmaking a lot more fair. In the end I couldn't, because I couldn't even finish actually making chess. This was because I didn't have enough motivation to really work, and in the end didn't have enough time."
+        ]
+    },
+    {
+        "index":4,
+        "projectName":"TheaTick",
+        "file":"theatick.html",
+        "amountProjects":1,
+        "shortDesc":"An ASP.Net, C# site that helps you buy tickets for concerts.",
+        "language":"C#",
+        "paragraphs":3,
+        "description":
+        [
+            "An ASP.Net C# app, where I tried to make a system that would give recommendations for concerts, and other presentations.",
+            "In this project, I was working on way too many things at a time, which made it so that in the end everything was half finished. I worked with MSSQL, which did help me a bit, but also gave some struggles. On the site you can add concerts, and you can also buy tickets (not real money). Most of the concerts that were added were made up by me.",
+            "I did enjoy doing this project, but I wouldn't do it again. There were a lot of things that went wrong, and I was having struggles myself as well."
+        ]
+    },
+    {
+        "index":5,
+        "projectName":"MWProjects",
+        "file":"mwprojects.html",
+        "amountProjects":2,
+        "shortDesc":"I've done two projects for this company, both in WordPress, PHP.",
+        "language":"PHP",
+        "projects":
+        [
+            {
+                "projectName":"Wordpress Tables",
+                "paragraphs":3,
+                "description":
+                [
+                    "In this project, we had to get data from a database, and then show the data on a Wordpress site.",
+                    "We had a lot of struggles within the team itself, and learning how to work with PHP and Wordpress while we were learning how to work in C# at the same time was hard. We had a lot of things going against us, and in the end we didn't end up doing very well on the presentation.",
+                    "Even though that's true, I learned a lot from this project. For example I learned how to do stand-ups. I also learned it's important to stick to a planning."
+                ]
+            },
+            {
+                "projectName":"Wordpress Sheets",
+                "paragraphs":4,
+                "description":
+                [
+                    "In the project we did the semester after the last one (see project above), we had to somehow make Wordpress and Google Sheets work together.",
+                    "The project was very similar to the other one, because it was both getting data from the cloud, and then printing it into a table. The difference was that before this project, we could work with SQL. PHP is a bit better in working with SQL, than with Google Sheets. This is also because Google Sheets has a lot of problems with its API, which sometimes doesn't make it clear what's wrong.",
+                    "Another problem we ran into, was that after we thought we had Sheets finally working, we had the problem of Wordpress. Wordpress is really security focused, and has really weird ways of telling you you're doing something wrong. For example 'Something went wrong. Line:39 at file 'yourfile.php''. This doesn't make it much easier to work with, because if you don't get that message, it's going to be a message of 300 chars, which don't make any sense whatsoever.",
+                    "The project ended up not completely how we wanted, since here as well we had the problem of people walking away from the team. It made the workload on the others a lot more, which isn't great."
+                ]
+            }
+        ]
+    }
+]
