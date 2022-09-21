@@ -1,3 +1,23 @@
+## **Patch: 1.0.0.0**
+*Branch: master*
+
+------------------------------
+
+## ***Welcome to 1.0.0.0! (AKA 1.0/1.0.0!)***
+It's a whole new module, and a whole new start of a module. I don't completely know what we'll be doing this module, but I'll probably go ahead and do other stuff. And, as I said in 0.1.5, I would explain the newer patch naming system I'll be using!
+
+------------------------------
+
+### **New patch naming system**
+So, to start, the naming system I've been using isn't all that good, since I don't even really know what the numbers all stand for. So to clarify, I will now explain how it will work from now on.
+So, we're now on 1.0.0.0, which is the official name. This means that basically for every number being changed, is going to be a new branch/branch push. Let's take an example, which makes it easier to explain than all these zeros. Let's say 1.2.3.4 is the current patch. In this case the "1" stands for the patch the master branch is on. Or some might say the amount of commits/merges it has had. Or how many big changes there've been on the Git. Then the "2" stands for major features, that have been pushed onto the development branch. The "3" comes after that, and stands for small changes such as "i didnt like how ... was working, so i changed it". And last, and probably the one I'm going to use the least (the one every programmer wants to use the least) the "4". It isn't that I don't like the number 4, it's actually my favorite number, but in this case it stands for bugfixes. If I find out something is going wrong constantly I'll want to change it. I might just throw these into bigger paatches, because it's just as easy. They will for sure not get any big changelogs, but there'll still be a count, for if it proves necessary. I do hope this explanation is good enough to help you understand the new system.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading! And let's do our best in the new module as well!
+
+------------------------------
+
 ## **Patch: 0.1.6**
 *Branch: first-module*
 
