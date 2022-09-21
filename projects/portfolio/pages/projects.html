@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Projects</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +9,26 @@
     <link rel="stylesheet" href="../bootstrap/3/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bootstrap/5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/template.css">
-    <link rel="stylesheet" href="../styles/index.css">
-    <script src="../scripts/index.js"></script>
+    <link rel="stylesheet" href="../styles/projects.css">
+    <script src="../scripts/projects.js"></script>
 </head>
 <body>
     <!-- navbar -->
     <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="pages/exercises.html">Exercises</a></li>
-        <li><a href="pages/aboutme.html">About me</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="exercises.html">Exercises</a></li>
+        <li><a href="aboutme.html">About me</a></li>
     </ul>
 
     <div class="main">
         <div class="container">
+            <div class="jumbotron">
+                <h1>My projects</h1>
+            </div>
 
+            <div id="projects">
+                <script>printProjects();</script>
+            </div>
         </div>
     </div>
     
