@@ -1,3 +1,29 @@
+## **Patch: 1.0.3.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+### **NOTE:**
+We're in a breakweek right now, which means that I will be doing some smaller projects. These will be the improving of my code from last module, and fixing a site for a friend of mine. That'll involve a form, but also Wordpress.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.0.0.0**
 *Branch: master*
 

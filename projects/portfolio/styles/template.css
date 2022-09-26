@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(150, 0, 0);
+    background-color: #1f1e33;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-li {
+.navbar li {
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li a, li a:hover {
+.navbar li a, .navbar li a:hover {
     font-size: initial;
     display: block;
     color: white;
@@ -26,12 +26,12 @@ li a, li a:hover {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: rgb(210, 0, 0);
+.navbar li a:hover:not(.active) {
+    background-color: #8d8c97;
 }
 
 .active {
-    background-color: rgb(120, 0, 0);
+    background-color: #4c4b5c;
 }
 
 footer p {
@@ -41,10 +41,6 @@ footer p {
 
 body {
     background-color: rgb(202, 255, 255);
-}
-
-.main {
-    margin-top: 50px;
 }
 
 .jumbotron {

@@ -4,6 +4,35 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.0.3.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Div work
+1. Remote control
+1. Overall layout
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Div work
+- I've been working on the structure of the code for the different pages I've made. The code wasn't really optimal at certain points, such as multiple divs inside of eachother. When I was working on this, nothing really worked. I'll ask for help tomorrow.
+
+2. Remote control
+- As I said before, I was going to make this show where the computer is. Well, I did. It now makes the key where it is a little darker.
+
+3. Overall layout
+- I made a few adjustments to the code, to make it better. I made the navbar (template.css) ul's and li's more clear by adding the class "navbar". I also updated the colors of the navbar, they're now not red anymore, but more dark purple (#1f1e33, jaguar).
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.6**
 *Branch: first-module*
 
