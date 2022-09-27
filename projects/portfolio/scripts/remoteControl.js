@@ -13,7 +13,7 @@ var row2;
 var row3;
 let i = 0;
 let firstTime = true;
-const activeColor = "#b6b5bd";
+const activeColor = "#1f1e33";
 
 function placeKeyboard() {
     if (firstTime) {
@@ -29,7 +29,7 @@ function placeKeyboard() {
         var elem = document.createElement("div");
 
         if (key.value === "Q") {
-            elem.style.backgroundColor = activeColor;
+            elem = selectKey(elem);
         } else {
             elem.style.backgroundColor = "#fff";
         }
@@ -135,6 +135,7 @@ let letterIndex;
 let wordIndex;
 let keyIndex;
 let myWord;
+let wait;
 
 const rows = [
     ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
@@ -158,6 +159,7 @@ async function remoteControl() {
     letterIndex = 0;
     wordIndex = 0;
     keyIndex = 0;
+    wait = false;
     
     myWord.forEach(mover);
 
@@ -170,18 +172,31 @@ async function remoteControl() {
     while (i < 1) {
         var firstkey = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
         firstkey.style.backgroundColor = "#fff";
+        firstkey.style.color = "initial";
 
         dir = nextInput(dir, res, inp);
 
+        if (wait) {
+            await new Promise(r => setTimeout(r, 50));
+            selectKey(document.getElementById(rows[row - 1][keyIndex].toUpperCase()));
+            wait = false;
+        }
+
         var elem = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
-        elem.style.backgroundColor = activeColor;
+        elem = selectKey(elem);
         
         if (dir == "")
             i++;
         
         await new Promise(r => setTimeout(r, 1500));
     }
+
     inp.innerHTML = "Next input: NONE";
+    var elem = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
+    elem.style.backgroundColor = "#fff";
+    elem.style.color = "initial";
+    selectKey();
+
     document.getElementById("btn").disabled = false;
 }
 
@@ -291,16 +306,29 @@ function inputLeft(inp) {
 
 function inputRight(inp) {
     inp.innerHTML = "Next input: RIGHT";
-    //var elem = document.getElementById("p");
     keyIndex++;
 }
 
-function select(res, inp) {
+async function select(res, inp) {
     inp.innerHTML = "Next input: SELECT";
+
+    var elem = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
+    elem.style.backgroundColor = "#E0E1CC";
+    elem.style.color = "initial";
     
     res.innerHTML += rows[row - 1][keyIndex];
+    wait = true;
 }
 
 function deleteInput(dir) {
     return dir.substring(2);
+}
+
+function selectKey(elem = null) {
+    if (elem == null)
+        elem = document.getElementById("Q");
+
+    elem.style.backgroundColor = activeColor;
+    elem.style.color = "white";
+    return elem;
 }
