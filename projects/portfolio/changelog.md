@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.0.5.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Form exercise
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Form exercise
+- I started working on an exercise using HTML forms, JavaScript, and PHP. It's going pretty well, and I'm working on a database connection now.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.0.4.0**
 *Branch: development*
 
