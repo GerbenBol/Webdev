@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.0.1**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire exercise
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire exercise
+- I started making a game of spider solitaire using JavaScript. Turns out this is harder than expected, but that also proves it's pretty fun. I'm going to try to make it, and if it doesn't work out, that's fine as well.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.0.0**
 *Branch: development*
 
