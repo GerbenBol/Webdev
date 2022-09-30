@@ -1,3 +1,24 @@
+## **Patch: 1.1.0.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog. This will be the last patch of this module and breakweek. Coming patches will be module 2.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.0.5.0**
 *Branch: development*
 

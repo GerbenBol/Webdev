@@ -35,3 +35,7 @@ form {
     margin: 0 auto;
     text-align: center;
 }
+
+.errorP, .errorA, .errorA:hover, .errorA:visited, .errorA:active {
+    color: red;
+}
