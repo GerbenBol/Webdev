@@ -1,4 +1,6 @@
 let board = [];
+let completedStacks = 0;
+let newStacks = 5;
 
 function initBoard() {
     const totalRows = 10;
@@ -68,4 +70,12 @@ function printCard() {
     card.className = "card-active";
 
     document.getElementById("playingboard").appendChild(card);
+}
+
+function update() {
+    console.log(newStacks);
+
+    if (newStacks != 0) {
+        document.getElementById("newstack").style.backgroundColor = "#dad9dd";
+    }
 }

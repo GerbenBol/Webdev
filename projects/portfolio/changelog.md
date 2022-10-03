@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.1.1**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Workshop 1
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop 1
+- Added workshop 1: programmer website. We had to make a small website using HTML and CSS about a famous, important programmer. I used Elon Musk.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.0.1**
 *Branch: development*
 
