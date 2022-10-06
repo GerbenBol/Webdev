@@ -1,0 +1,66 @@
+[
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ],
+    [
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":false, "visible":false },
+        { "cards":[], "grabable":true, "visible":true }
+    ]
+]

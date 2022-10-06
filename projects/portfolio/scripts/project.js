@@ -19,7 +19,6 @@ function getIndex() {
 function printPage() {
     var data = null;
 
-
     readTextFile("../../data/projects.json", function(text) {
         data = JSON.parse(text);
         var index = getIndex();

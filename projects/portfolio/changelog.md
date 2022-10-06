@@ -4,6 +4,31 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.2.2**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire
+1. Workshop 2
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire
+- I made some changes in the solitaire exercise I'm doing. It's giving me depression. I can't print the cards to the screen yet, so I'll be working on fixing that.
+
+2. Workshop 2
+- This was a workshop about lists. It was simple and quick, so nothing special.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.1.1**
 *Branch: development*
 
