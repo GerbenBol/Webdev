@@ -1,3 +1,28 @@
+## **Patch: 1.1.2.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+1. *Deleted:* Documentation changelog
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog.
+
+2. Documentation changelog
+- I found I wasn't going to use it, so I deleted it.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.0.1**
 *Branch: development*
 

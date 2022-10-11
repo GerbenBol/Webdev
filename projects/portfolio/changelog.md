@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.2.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire
+- I changed solitaire again, fixed the problem with undefined, so the board gets initialized correctly at least. Have also worked on printing the cards onto the screen. It almost works how I want it to. Have also begun working on the algorithm that gets activated when the player presses a stack/the new stacks.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.2.2**
 *Branch: development*
 
