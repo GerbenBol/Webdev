@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.2.6**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire
+- We can finally move the cars to another stack! It then makes the card under the stack visible, and possible to grab. Going to be working on combining parts of stacks. Also found a bug in the showing of empty rows/rows with only 1 card left. Will try to fix that before next push (later today).
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.2.5**
 *Branch: development*
 
