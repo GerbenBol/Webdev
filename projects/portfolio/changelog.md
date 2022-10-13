@@ -4,6 +4,43 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.4.8**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Week 1 Workshop 4
+1. Week 1 Workshop 5
+1. Week 2 Workshop 1
+1. Week 3 Workshop 2
+1. Solitaire
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop 4
+- I completed this workshop, and added it to the module overview.
+
+2. Workshop 5
+- I completed this workshop, and added it to the module overview.
+
+3. Workshop 1
+- I completed this workshop, and added it to the module overview.
+
+4. Workshop 2
+- I started, but not that long. I'm going to be working on this tomorrow as well, hopefully finishing it then.
+
+5. Solitaire
+- I completed the opening new stacks today, so that finally works. Also squashed a bug that popped up after finishing this task.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.2.6**
 *Branch: development*
 

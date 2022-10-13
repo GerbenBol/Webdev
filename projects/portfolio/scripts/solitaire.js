@@ -3,95 +3,95 @@ var board = {
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         },
         {
             "empty": false,
             "stacks":[
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":false, "visible":false, "selected":false },
-                { "cards":[], "grabable":true, "visible":true, "selected":false }
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":false, "visible":false, "selected":false },
+                { "cards":[], "active":true, "visible":true, "selected":false }
             ]
         }
     ]
@@ -129,22 +129,22 @@ async function init() {
 }
 
 function update(sender) {
+    event.stopPropagation();
+
     // Did new stack send this?
     if (sender == "new") {
-        // Is a stack selected?
-        if (selected != null) {
-            // Deselect stack
-            selected.className = "stack";
-            selected = null;
-        }
+        // Deselect stack if necessary
+        deselect();
 
         // Open new stack
         openStack();
+    } else if (sender == "board") {
+        deselect();
     } else {
         let r = sender.substr(1, 1), s = sender.substr(3, 1);
 
-        // Is this stack grabable?
-        if (board.rows[r].stacks[s].grabable) {
+        // Is this stack active?
+        if (board.rows[r].stacks[s].active) {
             // Is a stack selected?
             if (selected != null) {
                 let thisCards = board.rows[r].stacks[s].cards;
@@ -156,23 +156,25 @@ function update(sender) {
                 let otherHigh = cards.indexOf(oHigh.innerHTML);
                 let otherLow = cards.indexOf(oLow.innerHTML);
 
-                console.log(thisLow + ", " + otherHigh + ", " + otherLow);
-
                 // Is this stack's lowest 1 higher than other stack's highest?
                 if (thisLow - 1 == otherHigh) {
                     // Place other stack on this stack
                     combineStacks(r, s, 0);
-                } else if (thisLow > otherLow) { // Is this stack's lowest higher than other stack's lowest?
+                } else if (thisLow > otherLow && thisLow <= otherHigh) { // Is this stack's lowest higher than other stack's lowest?
                     // Check where it goes under, then place part of other stack on this stack
-                    console.log(thisLow + " > " + otherLow);
+                    for (let i = 0; i + thisLow >= otherLow; i++) {
+                        if (thisLow - 1 == cards.indexOf(selected.children[i].children[0].innerHTML)) {
+                            combineStacks(r, s, i);
+                            break;
+                        }
+                    }
                 } else {
                     // Alert the player and select this stack
                     console.log("couldn't combine stacks!");
-                    let row = selected.id.substr(1, 1), stack = selected.id.substr(3, 1);
-                    board.rows[row].stacks[stack].selected = false;
-                    let selstack = board.rows[r].stacks[s];
-                    selstack.selected = true;
-                    selected = selstack;
+                    deselect();
+                    let stack = board.rows[r].stacks[s];
+                    stack.selected = true;
+                    selected = document.getElementById("r" + r + "s" + s);
                 }
             } else {
                 // Select stack
@@ -182,13 +184,8 @@ function update(sender) {
             }
         } else {
             // Alert the player and deselect stack
-            console.log("that stack isn't grabable!");
-            
-            if (selected != null) {
-                let r = selected.id.substr(1, 1), s = selected.id.substr(3, 1);
-                board.rows[r].stacks[s].selected = false;
-                selected = null;
-            }
+            console.log("that stack isn't active!");
+            deselect();
         }
     }
 
@@ -296,7 +293,12 @@ function printCard(row, stack, index) {
     let txt = document.createElement("p");
     
     if (board.rows[row].stacks[stack].visible) {
-        card.className = "card card-active";
+        if (board.rows[row].stacks[stack].active) {
+            card.className = "card card-active";
+        } else {
+            card.className = "card card-inactive";
+        }
+
         txt.innerHTML = board.rows[row].stacks[stack].cards[index];
     } else {
         card.className = "card card-invis";
@@ -316,10 +318,16 @@ function restStacks() {
             d.className = "diff-card";
             d.id = "newstackcard";
             d.addEventListener("click", update.bind(null, "new"));
+            d.innerHTML = newStacks + " stacks left";
+            d.title = "Total new stacks left";
             document.getElementById("newstack").appendChild(d);
+        } else {
+            elem.innerHTML = newStacks + " stacks left";
         }
-    } else
+    } else {
         elem.style.backgroundColor = "#1f1e33";
+        elem.innerHTML = "";
+    }
 
     // Completed stacks stack
     var elem = document.getElementById("compstackcard");
@@ -330,25 +338,29 @@ function restStacks() {
             d.className = "diff-card";
             d.id = "compstackcard";
             d.style.backgroundColor = "#1f1e33";
+            d.title = "Total stacks completed";
             document.getElementById("completed").appendChild(d);
         }
     } else
         elem.style.backgroundColor = "#dad9dd";
-    
-    // Deselect button
-    var elem = document.getElementById("deselectbtn");
-
-    if (elem == null) {
-        var d = document.createElement("div");
-        d.className = "diff-card";
-        d.id = "deselectbtn";
-        d.addEventListener("click", deselect);
-        document.getElementById("deselect").appendChild(d);
-    }
 }
 
 function openStack() {
-    console.log("opening new stack...");
+    // Set all bottom stacks to inactive
+    for (let i = 0; i < 10; i++) {
+        let row = board.rows[i];
+        row.stacks[row.stacks.length - 1].active = false;
+    }
+
+    // Add new stack to every row
+    for (let i = 0; i < 10; i++) {
+        let row = board.rows[i];
+        let stack = { cards: [], active: true, selected: false, visible: true };
+        stack.cards[0] = getRandomCard();
+        row.stacks[row.stacks.length] = stack;
+    }
+
+    newStacks--;
 }
 
 function combineStacks(r, s, index) {
@@ -360,23 +372,31 @@ function combineStacks(r, s, index) {
     let topStack = board.rows[r].stacks[s];
     let bottomStack = board.rows[row].stacks[stack];
 
-    while (bottomStack.cards.length > 0) {
-        topStack.cards[topStack.cards.length] = bottomStack.cards[0];
-        bottomStack.cards.shift();
-        console.log(bottomStack.cards.length);
-    }
-    board.rows[row].stacks.pop();
+    if (index == 0) {
+        while (bottomStack.cards.length > index) {
+            topStack.cards[topStack.cards.length] = bottomStack.cards[index];
+            bottomStack.cards.shift();
+        }
+        board.rows[row].stacks.pop();
 
-    if (s != 0) {
-        let next = board.rows[row].stacks[stack - 1];
-        next.visible = true;
-        next.grabable = true;
+        if (s != 0) {
+            console.log(board.rows[row].stacks[stack - 1]);
+            console.log(s);
+            let next = board.rows[row].stacks[stack - 1];
+            next.visible = true;
+            next.active = true;
+        } else {
+            document.getElementById("row" + r).className += " empty";
+        }
     } else {
-        document.getElementById("row" + r).className += " empty";
+        while (bottomStack.cards.length > index) {
+            topStack.cards[topStack.cards.length] = bottomStack.cards[bottomStack.cards.length - 1];
+            bottomStack.cards.pop();
+        }
+        deselect();
     }
-
     selected = null;
-}
+} // empty row needs fixing, add check if completed
 
 function deselect() {
     if (selected != null) {
