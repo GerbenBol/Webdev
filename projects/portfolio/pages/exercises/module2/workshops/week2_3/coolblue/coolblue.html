@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coolblue - Order</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <a href="../../../../../../index.html"><img src="assets/img/coolblue_logo.png" id="logo"></a>
+    </div>
+
+    <!-- form -->
+    <div id="form">
+        <form method="post" action="">
+            <fieldset>
+                <legend><p id="header">JE GEGEVENS<span id="dot">.</span></p></legend>
+                <legend><p id="subhead">Wat moet er op de factuur staan?</p></legend>
+
+                <div id="input">
+                    <!-- type bestelling -->
+                    <label for="type">Type bestelling</label>
+                    <p>
+                        <input type="radio" name="type" value="particulier" checked />Particulier
+                        <input type="radio" name="type" value="zakelijk" />Zakelijk
+                    </p>
+
+                    <!-- aanhef -->
+                    <label for="aanhef">Aanhef</label>
+                    <p>
+                        <input type="radio" name="aanhef" value="dhr" checked />Dhr.
+                        <input type="radio" name="aanhef" value="mevr" />Mevr.
+                    </p>
+
+                    <!-- naam -->
+                    <p>
+                        <label for="naam">Naam</label>
+                        <input type="text" name="vnaam" placeholder="Voornaam" />
+                        <input type="text" name="tv" placeholder="Tussenv." />
+                        <input type="text" name="anaam" placeholder="Achternaam" />
+                    </p>
+
+                    <!-- postcode -->
+                    <p>
+                        <label for="postcode">Postcode</label>
+                        <input type="text" name="postcode" placeholder="1234AB" />
+                    </p>
+
+                    <!-- huisnummer -->
+                    <p>
+                        <label for="huisnr">Huisnummer</label>
+                        <input type="text" name="huisnr" placeholder="Nr." />
+                        <input type="text" name="toev" placeholder="Toev." />
+                    </p>
+
+                    <!-- land -->
+                    <label for="land">Land</label>
+                    <p>Nederland
+                        <a href="https://coolblue.be" target="_blank" id="belg">
+                            <b>&rsaquo;</b> In België laten bezorgen
+                        </a>
+                    </p>
+                </div>
+            </fieldset>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.4.9**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Coolblue (week 3 workshop 2)
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Coolblue
+- As I said last time, I put some time into this. It was only 2 hours, so not that long. I forgot I didn't have that much time, so I thought I could finish it today, but that didn't happen. I'm going to be working on it next week as well, hopefully 2 more days will be enough.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.4.8**
 *Branch: development*
 
