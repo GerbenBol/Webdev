@@ -15,10 +15,10 @@
     <div id="form">
         <form method="post" action="">
             <fieldset>
-                <legend><p id="header">JE GEGEVENS<span id="dot">.</span></p></legend>
-                <legend><p id="subhead">Wat moet er op de factuur staan?</p></legend>
-
                 <div id="input">
+                    <legend><p class="header">JE GEGEVENS<span class="dot">.</span></p></legend>
+                    <legend><p class="subhead">Wat moet er op de factuur staan?</p></legend>
+
                     <!-- type bestelling -->
                     <label for="type">Type bestelling</label>
                     <p>
@@ -34,22 +34,22 @@
                     </p>
 
                     <!-- naam -->
+                    <label for="naam">Naam</label>
                     <p>
-                        <label for="naam">Naam</label>
                         <input type="text" name="vnaam" placeholder="Voornaam" />
                         <input type="text" name="tv" placeholder="Tussenv." />
                         <input type="text" name="anaam" placeholder="Achternaam" />
                     </p>
 
                     <!-- postcode -->
+                    <label for="postcode">Postcode</label>
                     <p>
-                        <label for="postcode">Postcode</label>
                         <input type="text" name="postcode" placeholder="1234AB" />
                     </p>
 
                     <!-- huisnummer -->
+                    <label for="huisnr">Huisnummer</label>
                     <p>
-                        <label for="huisnr">Huisnummer</label>
                         <input type="text" name="huisnr" placeholder="Nr." />
                         <input type="text" name="toev" placeholder="Toev." />
                     </p>
@@ -61,10 +61,125 @@
                             <b>&rsaquo;</b> In België laten bezorgen
                         </a>
                     </p>
+
+                    <!-- afleveradres -->
+                    <label for="afleveradres">Afleveradres</label>
+                    <p>
+                        <input type="radio" name="adres" value="bovenstaand" checked />Op bovenstaand adres bezorgen
+                        <input type="radio" name="adres" value="ander" />Op ander adres bezorgen
+                    </p>
+
+                    <!-- e-mailadres -->
+                    <label for="emailadress"><img src="assets/img/i.png" width="7%"> E-mailadres</label>
+                    <p>
+                        <input type="text" name="email" />
+                    </p>
+
+                    <!-- telefoonnummer -->
+                    <label for="telefoonnummer"><img src="assets/img/i.png" width="7%"> Telefoonnummer</label>
+                    <p>
+                        <input type="text" name="tel" />
+                    </p>
+
+                    <!-- geboortedatum -->
+                    <label for="geboortedatum"><img src="assets/img/i.png" width="7%"> Geboortedatum</label>
+                    <p>
+                        <input type="date" name="datum" />
+                    </p>
+
+                    <!-- verzendwijze factuur -->
+                    <label for="verzendwijze"><img src="assets/img/i.png" width="7%"> Verzendwijze factuur</label>
+                    <p>
+                        <input type="radio" name="verzend" value="email" checked />Factuur per e-mail
+                        <input type="radio" name="verzend" value="geprint" />Factuur geprint bij de bestelling
+                    </p>
+                    
+                    <!-- nieuwsbrief -->
+                    <label for="nieuwsbrief"><img src="assets/img/i.png" width="7%"> Nieuwsbrief</label>
+                    <p>
+                        <input type="checkbox" name="brief" /> Ja, ik wil de Coolblue-nieuwsbrief met
+                        <span class="orange">&euro;5,- cadeaubon</span> voor <br /> mijn volgende bestelling
+                    </p>
+
+                    <!-- kleur verpakking -->
+                    <label for="kleur"><img src="assets/img/i.png" width="7%"> Kleur verpakking</label>
+                    <p>
+                        <input type="color" name="kleur" />
+                    </p>
+
+                    <legend><p class="header">BEWAAR JE GEGEVENS<span class="dot">.</span></p></legend>
+                    <legend><p class="subhead">Handig voor de volgende keer.</p></legend>
+                    
+                    <!-- wachtwoord -->
+                    <label for="ww"><img src="assets/img/i.png" width="7%"> Wachtwoord</label>
+                    <p>
+                        <input type="password" name="ww" minlength="6" />
+                    </p>
+                    <p id="wwinfo">Minimaal 6 karakters.<br />Verder doen we niet zo moeilijk.</p>
+
+                    <!-- ww bevestigen -->
+                    <label for="wwb"><img src="assets/img/i.png" width="7%"> Wachtwoord bevestigen</label>
+                    <p>
+                        <input type="password" name="wwb" minlength="6" />
+                    </p>
+
+                    <!-- submit -->
+                    <input type="submit" value="Verder" />
                 </div>
             </fieldset>
-
         </form>
     </div>
+
+    <footer>
+        <div class="imagent">
+                <div class="left">
+                <div style="display:flex;">
+                    <img src="assets/img/phone.png" width="89.6"></span>
+                    <p>
+                        <span class="head">BEL 010 7988999</span><span class="dot">.</span>
+                        <br /><span class="sub">Voor acute service.</span>
+                    </p>
+                </div>
+                <p><b>Onze klantenservice is nu open.</b></p>
+                <p>Je kunt ons 7 dagen per week bereiken. Vandaag is<br />de klantenservice tot 23.59 uur open.</p>
+            </div>
+            <div class="right">
+                <p>
+                    <span class="head">SERVICE</span><span class="dot">.</span>
+                    <br /><span class="sub">Onderdeel van Coolblue.</span>
+                </p>
+                <p><img src="assets/img/vinkje.png" width="15"> Gratis verzenden & retourneren</p>
+                <p><img src="assets/img/vinkje.png" width="15"> Voor 23.59 uur besteld, morgen in huis</p>
+                <p><img src="assets/img/vinkje.png" width="15"> Track & Trace, volg je pakket</p>
+                <p><img src="assets/img/vinkje.png" width="15"> Statusupdates via e-mail</p>
+                <p><img src="assets/img/vinkje.png" width="15"> Winkels in Amsterdam, Eindhoven, Groningen,
+                    <br />&ensp;&ensp; Rotterdam en Utrecht</p>
+            </div>
+        </div>
+        
+        <div class="icons">
+            <a href="https://coolblue.nl/klantenservice/betaalmogelijkheden">
+                <img src="assets/img/ideal.png" width="50" title="Meer informatie over betalen met iDeal">
+            </a>
+            <a href="https://coolblue.nl/klantenservice/betaalmogelijkheden">
+                <img src="assets/img/mastercard.png" width="50" title="Meer informatie over betalen met MasterCard">
+            </a>
+            <a href="https://coolblue.nl/klantenservice/betaalmogelijkheden">
+                <img src="assets/img/visa.png" width="50" title="Meer informatie over betalen met Visa">
+            </a>
+            <a href="https://coolblue.nl/klantenservice/betaalmogelijkheden">
+                <img src="assets/img/applepay.png" width="50" title="Meer informatie over betalen met ApplePay">
+            </a>
+            <a href="https://thuiswinkel.org/leden/coolblue/certificaat">
+                <img src="assets/img/thuiswinkelwaar.png" width="50">
+            </a>
+            <a href="https://thuiswinkel.org/leden-zakelijk/coolblue/certificaat">
+                <img src="assets/img/thuiswinkelzak.png" width="50">
+            </a>
+            <a href="https://coolblue.nl/klantenservice/bezorg-en-ophaalopties">
+                <img src="assets/img/postnl.png" width="50" title="Meer informatie over verzending en bezorging">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

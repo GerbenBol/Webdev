@@ -4,6 +4,31 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.1.5.10**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Coolblue
+1. Webshop
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Coolblue
+- I've finished the Coolblue exercise we had to make. I think I did pretty good.
+
+2. Webshop
+- I started working on this exercise late, so there's not much. We have to build our own webshop, only frontend.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.4.9**
 *Branch: development*
 
