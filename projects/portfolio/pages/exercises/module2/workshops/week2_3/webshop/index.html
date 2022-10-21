@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Products</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <!-- left side -->
+        <a href="../../../../../../index.html" class="img"><img src="assets/img/logo.png" width="50"></a>
+        <div class="dropdown">
+            <button class="dropbtn">Products <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="">GPU</a>
+                <a href="">CPU</a>
+                <a href="">CPU Cooling</a>
+                <a href="">Motherboards</a>
+            </div>
+        </div>
+        <a href="">About</a>
+        <a href="">Contact</a>
+
+        <!-- right side -->
+        <a href="" class="right">Account</a>
+        <a href="" class="right">Cart</a>
+    </div>
+
+    <!-- content (products and specifics) -->
+    <div id="contents">
+        <!-- specifics -->
+        <div id="specs">
+            <script>getSpecs();</script>
+        </div>
+        <!-- products -->
+        <div id="products">
+            <script>getProducts();</script>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <p>&copy; Gerben Bol</p>
+    </div>
+</body>
+</html>

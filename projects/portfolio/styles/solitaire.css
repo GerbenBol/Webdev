@@ -1,0 +1,120 @@
+#board {
+    margin-top: -20px;
+    background-color: #1f1e33;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#playingboard {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    column-gap: 0;
+    padding: 10px;
+    width: 100%;
+    height: 75%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+#rest {
+    height: 25%;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#completed, #newstack {
+    height: 100%;
+    width: 8%;
+}
+
+#completed {
+    margin-left: 10px;
+}
+
+#newstack {
+    margin-right: 10px;
+}
+
+.playrow {
+    width: 90%;
+}
+
+.stack {
+    margin: 0 5px;
+    height: 30%;
+    max-height: 100%;
+}
+
+.stack-small {
+    margin: 0 5px;
+    height: 2%;
+}
+
+.selected {
+    width: calc(100% - 11.5px);
+    border: 3px solid #706f7d;
+    border-radius: 7px;
+}
+
+.diff-card {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #dad9dd;
+}
+
+.card {
+    background-color: #b6b5bd;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card-invis {
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-active {
+    background-color: #dad9dd;
+}
+
+.card-small {
+    height: 2%;
+    border-radius: 5px 5px 0 0;
+}
+
+.empty {
+    border: 1px solid #dad9dd;
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.char {
+    margin-left: 50px;
+    width: fit-content;
+}
+
+.head {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    background-color: #1f1e33;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+
+.body {
+    height: 50px;
+    width: 40px;
+    background-color: #1f1e33;
+    border-radius: 25% 25% 0 0;
+}

@@ -1,3 +1,169 @@
+## **Patch: 1.2.5.13**
+*Branch: development (into master)*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- I made a lot of changes to this project, see that changelog for more information.
+
+------------------------------
+
+### **NOTE:**
+This is the push with the last changes for module 2. The next push that's going to happen will be patch 2.0.0.0 (or patch 2.0 for short). See you next module!
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.2.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+1. *Deleted:* Documentation changelog
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog.
+
+2. Documentation changelog
+- I found I wasn't going to use it, so I deleted it.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.0.1**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.0.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog. This will be the last patch of this module and breakweek. Coming patches will be module 2.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.0.5.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.0.4.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+### **NOTE:**
+Last time I said I would be fixing the form of a site for a friend of mine, this will be canceled. I will do something else, which I still have to think about.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.0.3.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio project
+- Project portfolio has been changed. More information in that changelog.
+
+------------------------------
+
+### **NOTE:**
+We're in a breakweek right now, which means that I will be doing some smaller projects. These will be the improving of my code from last module, and fixing a site for a friend of mine. That'll involve a form, but also Wordpress.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.0.0.0**
 *Branch: master*
 

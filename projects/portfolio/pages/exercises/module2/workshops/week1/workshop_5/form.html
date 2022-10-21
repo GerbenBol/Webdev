@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Velden voor een HTML-formulier</h1>
+        <form>
+            <fieldset>
+                <legend><h2>Tekstvelden</h2></legend>
+
+                <p><label for="voornaam">Voornaam:</label><input type="text" name="Voornaam" /></p>
+                <p><label for="achternaam">Achternaam:</label><input type="text" name="Achternaam" /></p>
+                <p><label for="pwd">Wachtwoord:</label><input type="password" name="pwd" /></p>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Radio Buttons</h2></legend>
+
+                <p><input type="radio" name="geslacht" value="man" />Man</p>
+                <p><input type="radio" name="geslacht" value="vrouw" />Vrouw</p>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Checkbox</h2></legend>
+
+                <p><input type="checkbox" name="vehicle" value="fiets" />Ik heb een fiets</p>
+                <p><input type="checkbox" name="vehicle" value="auto" />Ik heb een auto</p>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Dropdownlist</h2></legend>
+
+                <p><select name="balletdanseressen">
+                    <option value="Martha Graham">Martha Graham</option>
+                    <option value="Carlotta Grisi">Carlotta Grisi</option>
+                    <option value="Agrippina Vaganova" selected="selected">Agrippina Vaganova</option>
+                    <option value="Natalie Portman">Natalie Portman</option>
+            </select></p>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Textarea</h2></legend>
+
+                <p><textarea rows="7" cols="25" name="opmerkingen"></textarea></p>
+
+                <legend><h2>Submit knop</h2></legend>
+
+                <p><input type="submit" value="Verzenden"></p>
+            </fieldset>
+        </form>
+    </div>
+
+    <hr>
+
+    <div id="container">
+        <h1>Stuur een bericht</h1>
+
+        <form method="post" action="" id="exer">
+            <input type="text" name="firstname" placeholder="Voornaam *" class="grid-item" />
+            <input type="text" name="lastname" placeholder="Achternaam *" class="grid-item" />
+
+            <input type="email" name="email" placeholder="E-mailadres *" class="grid-item" />
+            <input type="text" name="website" placeholder="Website" class="grid-item" />
+
+            <textarea cols="2" placeholder="Bericht *" id="area" class="grid-item"></textarea>
+        </form>
+    </div>
+</body>
+</html>

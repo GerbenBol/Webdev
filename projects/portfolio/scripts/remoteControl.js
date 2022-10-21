@@ -13,6 +13,7 @@ var row2;
 var row3;
 let i = 0;
 let firstTime = true;
+const activeColor = "#1f1e33";
 
 function placeKeyboard() {
     if (firstTime) {
@@ -26,9 +27,16 @@ function placeKeyboard() {
 
     keyboardData.forEach(key => {
         var elem = document.createElement("div");
-        elem.className = "col-md-1 key";
+
+        if (key.value === "Q") {
+            elem = selectKey(elem);
+        } else {
+            elem.style.backgroundColor = "#fff";
+        }
+
+        elem.className = "col-md-1 key"
         elem.innerHTML = key.value;
-        elem.style.backgroundColor = "#fff";//"#" + getRandomColor();
+        elem.id = key.value;
         placeElem(elem);
 
         i++;
@@ -64,10 +72,6 @@ function createEmptyCol() {
         col.className = "col-md-1";
     }
     return col;
-}
-
-function getRandomColor() {
-    return Math.floor(Math.random()*16777215).toString(16);
 }
 
 function finishKeyboard() {
@@ -131,10 +135,13 @@ let letterIndex;
 let wordIndex;
 let keyIndex;
 let myWord;
+let wait;
 
-const firstRow = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"];
-const secondRow = ["a", "s", "d", "f", "g", "h", "j", "k", "l"];
-const lastRow = ["z", "x", "c", "v", "b", "n", "m"];
+const rows = [
+    ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
+    ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"],
+    ["z", "x", "c", "v", "b", "n", "m", ",", ".", "/"]
+];
 
 async function remoteControl() {
     document.getElementById("btn").disabled = true;
@@ -152,34 +159,53 @@ async function remoteControl() {
     letterIndex = 0;
     wordIndex = 0;
     keyIndex = 0;
+    wait = false;
     
     myWord.forEach(mover);
 
     let dir = directions.substring(0, directions.length - 1);
-    console.log(dir);
 
     row = 1;
     keyIndex = 0;
     var i = 0;
 
     while (i < 1) {
+        var firstkey = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
+        firstkey.style.backgroundColor = "#fff";
+        firstkey.style.color = "initial";
+
         dir = nextInput(dir, res, inp);
+
+        if (wait) {
+            await new Promise(r => setTimeout(r, 50));
+            selectKey(document.getElementById(rows[row - 1][keyIndex].toUpperCase()));
+            wait = false;
+        }
+
+        var elem = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
+        elem = selectKey(elem);
         
         if (dir == "")
             i++;
         
         await new Promise(r => setTimeout(r, 1500));
     }
+
     inp.innerHTML = "Next input: NONE";
+    var elem = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
+    elem.style.backgroundColor = "#fff";
+    elem.style.color = "initial";
+    selectKey();
+
     document.getElementById("btn").disabled = false;
 }
 
 function mover() {
-    if (firstRow.includes(myWord[wordIndex]))
+    if (rows[0].includes(myWord[wordIndex]))
         goToFirstRow();
-    else if (secondRow.includes(myWord[wordIndex]))
+    else if (rows[1].includes(myWord[wordIndex]))
         goToSecondRow();
-    else if (lastRow.includes(myWord[wordIndex]))
+    else if (rows[2].includes(myWord[wordIndex]))
         goToLastRow();
     else
         console.log("wtf how did we get here");
@@ -197,7 +223,7 @@ function goToFirstRow() {
     row = 1;
 
     // Change index on keyboard
-    letterIndex = firstRow.indexOf(myWord[wordIndex]);
+    letterIndex = rows[0].indexOf(myWord[wordIndex]);
     changeIndex();
 }
 
@@ -211,7 +237,7 @@ function goToSecondRow() {
     row = 2;
 
     // Change index on keyboard
-    letterIndex = secondRow.indexOf(myWord[wordIndex]);
+    letterIndex = rows[1].indexOf(myWord[wordIndex]);
     changeIndex();
 }
 
@@ -225,7 +251,7 @@ function goToLastRow() {
     row = 3;
 
     // Change index on keyboard
-    letterIndex = lastRow.indexOf(myWord[wordIndex]);
+    letterIndex = rows[2].indexOf(myWord[wordIndex]);
     changeIndex();
 }
 
@@ -283,18 +309,26 @@ function inputRight(inp) {
     keyIndex++;
 }
 
-function select(res, inp) {
+async function select(res, inp) {
     inp.innerHTML = "Next input: SELECT";
-    console.log(row);
 
-    if (row == 1)
-        res.innerHTML += firstRow[keyIndex];
-    else if (row == 2)
-        res.innerHTML += secondRow[keyIndex];
-    else if (row == 3)
-        res.innerHTML += lastRow[keyIndex];
+    var elem = document.getElementById(rows[row - 1][keyIndex].toUpperCase());
+    elem.style.backgroundColor = "#E0E1CC";
+    elem.style.color = "initial";
+    
+    res.innerHTML += rows[row - 1][keyIndex];
+    wait = true;
 }
 
 function deleteInput(dir) {
     return dir.substring(2);
+}
+
+function selectKey(elem = null) {
+    if (elem == null)
+        elem = document.getElementById("Q");
+
+    elem.style.backgroundColor = activeColor;
+    elem.style.color = "white";
+    return elem;
 }

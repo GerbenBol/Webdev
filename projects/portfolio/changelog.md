@@ -4,6 +4,316 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.2.5.13**
+*Branch: development (into merge to master)*
+
+------------------------------
+
+### *Changes this patch:*
+1. Webshop
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Webshop
+- I finished the webshop exercise, and it looks pretty good, if I do say so myself. There were a couple things I got stuck on, and I kind of wanted to make it actually working with the filters aswell, but that didn't work out in the end because I didn't have the time for it.
+
+------------------------------
+
+### **NOTE:**
+This is the last push of this module. I had fun working on the things I did work on, such as solitaire and the webshop. See you next module!
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.5.10**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Coolblue
+1. Webshop
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Coolblue
+- I've finished the Coolblue exercise we had to make. I think I did pretty good.
+
+2. Webshop
+- I started working on this exercise late, so there's not much. We have to build our own webshop, only frontend.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.4.9**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Coolblue (week 3 workshop 2)
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Coolblue
+- As I said last time, I put some time into this. It was only 2 hours, so not that long. I forgot I didn't have that much time, so I thought I could finish it today, but that didn't happen. I'm going to be working on it next week as well, hopefully 2 more days will be enough.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.4.8**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Week 1 Workshop 4
+1. Week 1 Workshop 5
+1. Week 2 Workshop 1
+1. Week 3 Workshop 2
+1. Solitaire
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop 4
+- I completed this workshop, and added it to the module overview.
+
+2. Workshop 5
+- I completed this workshop, and added it to the module overview.
+
+3. Workshop 1
+- I completed this workshop, and added it to the module overview.
+
+4. Workshop 2
+- I started, but not that long. I'm going to be working on this tomorrow as well, hopefully finishing it then.
+
+5. Solitaire
+- I completed the opening new stacks today, so that finally works. Also squashed a bug that popped up after finishing this task.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.2.6**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire
+- We can finally move the cars to another stack! It then makes the card under the stack visible, and possible to grab. Going to be working on combining parts of stacks. Also found a bug in the showing of empty rows/rows with only 1 card left. Will try to fix that before next push (later today).
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.2.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire
+- I changed solitaire again, fixed the problem with undefined, so the board gets initialized correctly at least. Have also worked on printing the cards onto the screen. It almost works how I want it to. Have also begun working on the algorithm that gets activated when the player presses a stack/the new stacks.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.2.2**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire
+1. Workshop 2
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire
+- I made some changes in the solitaire exercise I'm doing. It's giving me depression. I can't print the cards to the screen yet, so I'll be working on fixing that.
+
+2. Workshop 2
+- This was a workshop about lists. It was simple and quick, so nothing special.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.1.1**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Workshop 1
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop 1
+- Added workshop 1: programmer website. We had to make a small website using HTML and CSS about a famous, important programmer. I used Elon Musk.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.0.1**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Solitaire exercise
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Solitaire exercise
+- I started making a game of spider solitaire using JavaScript. Turns out this is harder than expected, but that also proves it's pretty fun. I'm going to try to make it, and if it doesn't work out, that's fine as well.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.1.0.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. PHP Forms
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. PHP Forms
+- I've completed the form exercise, it is completely working with a database now. This concludes the end of the first module + breakweek.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.0.5.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Form exercise
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Form exercise
+- I started working on an exercise using HTML forms, JavaScript, and PHP. It's going pretty well, and I'm working on a database connection now.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.0.4.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Remote Control
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Remote Control
+- I've changed the remote control exercise again, it's now completely functional, and shows when a button is clicked as well.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 1.0.3.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Div work
+1. Remote control
+1. Overall layout
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Div work
+- I've been working on the structure of the code for the different pages I've made. The code wasn't really optimal at certain points, such as multiple divs inside of eachother. When I was working on this, nothing really worked. I'll ask for help tomorrow.
+
+2. Remote control
+- As I said before, I was going to make this show where the computer is. Well, I did. It now makes the key where it is a little darker.
+
+3. Overall layout
+- I made a few adjustments to the code, to make it better. I made the navbar (template.css) ul's and li's more clear by adding the class "navbar". I also updated the colors of the navbar, they're now not red anymore, but more dark purple (#1f1e33, jaguar).
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 0.1.6**
 *Branch: first-module*
 
