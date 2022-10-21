@@ -4,6 +4,32 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 1.2.5.13**
+*Branch: development (into merge to master)*
+
+------------------------------
+
+### *Changes this patch:*
+1. Webshop
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Webshop
+- I finished the webshop exercise, and it looks pretty good, if I do say so myself. There were a couple things I got stuck on, and I kind of wanted to make it actually working with the filters aswell, but that didn't work out in the end because I didn't have the time for it.
+
+------------------------------
+
+### **NOTE:**
+This is the last push of this module. I had fun working on the things I did work on, such as solitaire and the webshop. See you next module!
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.5.10**
 *Branch: development*
 

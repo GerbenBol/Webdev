@@ -1,3 +1,29 @@
+## **Patch: 1.2.5.13**
+*Branch: development (into master)*
+
+------------------------------
+
+### *Changes this patch:*
+1. Portfolio project
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Portfolio
+- I made a lot of changes to this project, see that changelog for more information.
+
+------------------------------
+
+### **NOTE:**
+This is the push with the last changes for module 2. The next push that's going to happen will be patch 2.0.0.0 (or patch 2.0 for short). See you next module!
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.1.2.5**
 *Branch: development*
 
