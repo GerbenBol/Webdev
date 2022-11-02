@@ -4,6 +4,31 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 2.0.0.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Module 3
+1. Exercise 1: Webshop (WitWub)
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Module 3
+- A wild new folder has appeared! I'll be working in this folder the coming weeks, it will hold all of the things I do for module 3.
+
+2. WitWub
+- Last module (module 2) we had a final exercise, which was making the webshop. This was frontend only, and now we have to expand. It will have to contain a couple more things, and not working with JavaScript is almost going to be impossible. I've been working on this for 3 days now (because I'm a little late with the first push/patch whoops). I've almost finished the detail page, and will finish the last things of that tomorrow. I also hope to make the most part of the order page, and possibly already start making the thank you page.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.2.5.13**
 *Branch: development (into merge to master)*
 

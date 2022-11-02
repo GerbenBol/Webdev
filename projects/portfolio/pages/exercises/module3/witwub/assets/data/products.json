@@ -1,0 +1,7 @@
+[
+    { "id":0, "name":"Gigabyte GeForce RTX 3070 Ti", "brand":"Gigabyte", "price":"829,00", "memtype":"GDDR6", "memory":8, "len":"320", "res":"8K", "img":"assets/img/gb1.png" },
+    { "id":1, "name":"MSI GeForce RTX 3080 Ti", "brand":"MSI", "price":"1.252,35", "memtype":"GDDR6", "memory":12, "len":"324", "res":"8K", "img":"assets/img/msi1.png" },
+    { "id":2, "name":"Asus GeForce RTX 2060 DUAL", "brand":"Asus", "price":"299,95", "memtype":"GDDR6", "memory":6, "len":"242", "res":"8K", "img":"assets/img/asus1.png" },
+    { "id":3, "name":"Gigabyte GeForce GTX 1660", "brand":"Gigabyte", "price":"289,64", "memtype":"GDDR5", "memory":6, "len":"241", "res":"8K", "img":"assets/img/gb2.jpg" },
+    { "id":4, "name":"INNO3D GeForce RTX 3070 TWIN", "brand":"INNO3D", "price":"629,00", "memtype":"GDDR6", "memory":8, "len":"240", "res":"8K", "img":"assets/img/inno1.png" }
+]

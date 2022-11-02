@@ -1,0 +1,27 @@
+#contents {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#contents h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#contents p {
+    font-size: 20px;
+}
+
+#goback {
+    color: blue;
+    cursor: pointer;
+}
+
+/* footer fixing */
+#footer {
+    width: 99.9%;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "forid":-1,
+        "values":
+        [
+            "Graphics Processing Unit", "Core Clock", "CUDA® Cores",
+            "Memory", "Memory Bus", "Max Resolution",
+            "DirectX", "OpenGL", "Recommended Power (PSU)",
+            "Output", "Dimensions (mm)"
+        ]
+    },
+    {
+        "forid":0,
+        "values":
+        [
+            "NVIDIA® GeForce RTX™ 3070 Ti", "1830 MHz", 6144,
+            "8GB GDDR6X", "256 bit", "7680x4320 (8K)",
+            "12 Ultimate", "4.6", "750W",
+            "DisplayPort v1.4a *2, HDMI 2.1 *2", "320 x 129 x 55"
+        ]
+    },
+    {
+        "forid":1,
+        "values":
+        [
+            "NVIDIA® GeForce RTX™ 3080 Ti", "1770 MHz", 10240,
+            "12GB GDDR6X", "384 bit", "7680x4320 (8K)",
+            "12 API", "4.6", "750W",
+            "DisplayPort v1.4 *3, HDMI 2.1 *1", "324 x 140 x 56"
+        ]
+    },
+    {
+        "forid":2,
+        "values":
+        [
+            "NVIDIA® GeForce RTX™ 2060", "1395 MHz", 1920,
+            "6GB GDDR6", "192 bit", "7680x4320 (8K)",
+            "", "4.6", "500W",
+            "DisplayPort v1.4 *1, HDMI 2.0b *2", "242 x 130 x 53"
+        ]
+    },
+    {
+        "forid":3,
+        "values":
+        [
+            "GeForce® GTX 1660", "1830 MHz", 1408,
+            "6GB GDDR5", "192 bit", "7680x4320 (8K) (@60Hz)",
+            "12", "4.6", "450W",
+            "DisplayPort v1.4 *3, HDMI 2.0b *1", "224 x 121 x 40"
+        ]
+    },
+    {
+        "forid":4,
+        "values":
+        [
+            "NVIDIA® GeForce RTX™ 3070", "1500 MHz", 5888,
+            "8GB GDDR6", "256 bit", "7680x4320 (8K)",
+            "12 Ultimate", "4.6", "650W",
+            "DisplayPort v1.4a *3, HDMI 2.1 *1", "240 x 120 x 50"
+        ]
+    }
+]
