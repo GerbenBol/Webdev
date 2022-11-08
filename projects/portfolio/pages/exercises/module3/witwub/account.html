@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WitWub - Products</title>
+    <title>WitWub - Account</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/account.css">
     <link rel="stylesheet" href="assets/css/standard.css">
-    <script src="assets/js/products.js"></script>
+    <script src="assets/js/account.js"></script>
 </head>
 <body>
     <!-- navbar -->
-    <div class="navbar">
+    <div class="navbar" id="navbar">
         <!-- left side -->
         <a href="../../../../index.html" class="img"><img src="assets/img/logo.png" width="50" alt="logo"></a>
         <div class="dropdown">
@@ -28,20 +28,12 @@
         <a href="">Contact</a>
 
         <!-- right side -->
-        <a href="account.html" class="right" style="margin-right:1%;">Account</a>
+        <a href="#" class="right" style="margin-right:1%;">Account</a>
         <a href="cart.html" class="right">Cart</a>
     </div>
 
-    <!-- content (products and specifics) -->
     <div id="contents">
-        <!-- specifics -->
-        <div id="specs">
-            <script>getSpecs();</script>
-        </div>
-        <!-- products -->
-        <div id="products">
-            <script>getProducts();</script>
-        </div>
+        <script>printPage();</script>
     </div>
 
     <!-- footer -->

@@ -1,0 +1,21 @@
+#contents {
+    margin: 5% auto;
+    width: 50%;
+}
+
+#table {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#ordernumber {
+    grid-column: 1 / 4;
+}
+
+#table-footer {
+    grid-column: 4 / 5;
+}
+
+#footer {
+    margin-top: 273.5px;
+}

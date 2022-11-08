@@ -98,12 +98,46 @@ input[type="number"] { border: none; }
 /* rest */
 #rest {
     width: 100%;
-    height: 100px;
+    height: fit-content;
     margin: 0;
     margin-top: 20px;
     padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #rest:hover { box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.23); }
+
+.spec {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    margin-left: 2%;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.spec-even {
+    width: 96%;
+    height: fit-content;
+    color: black;
+}
+
+.spec-odd {
+    width: 96%;
+    height: fit-content;
+    background-color: #706f7d;
+    color: white;
+}
+
+.spec-name {
+    width: 30%;
+    margin: 10px;
+}
+
+.spec-value {
+    width: 70%;
+    margin: 10px;
+}

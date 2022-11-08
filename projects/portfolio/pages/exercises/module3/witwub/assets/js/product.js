@@ -11,7 +11,7 @@ function getProduct() {
 }
 
 // Set the current product we are looking at
-function setProduct(data) {
+async function setProduct(data) {
     let parameters = window.location.href.split("=");
     let searchId = parameters[1];
 
@@ -27,7 +27,7 @@ function setProduct(data) {
     // Print page
     printProduct();
 
-    fetch("assets/data/specs.json")
+    await fetch("assets/data/specs.json")
         .then((r) => r.json())
         .then((d) => setSpecs(d));
 
@@ -76,14 +76,9 @@ function printSpecs() {
     rest.id = "rest";
     main.appendChild(rest);
 
-    // Specs
-    let specs = document.createElement("div");
-    specs.id = "specs";
-    rest.appendChild(specs);
-
     // Loop through specs
     for (let i = 0; i < specNames.length; i++) {
-        placeSpec(specs, i);
+        placeSpec(rest, i);
     }
 }
 
@@ -243,6 +238,27 @@ function getAtStore() {
 }
 
 function placeSpec(parent, id) {
-    // make flexbox
-    // put spec name and spec value in flexbox
+    // Make flexbox
+    let flex = document.createElement("div");
+    flex.className = "spec spec-";
+
+    if (id % 2 == 0) {
+        // Even
+        flex.className += "even";
+    } else {
+        // Odd
+        flex.className += "odd";
+    }
+    parent.appendChild(flex);
+
+    // Put spec name (specNames[id]) and spec value (specs[id]) in flexbox
+    let name = document.createElement("p");
+    name.className = "spec-name";
+    name.innerHTML = specNames[id];
+    flex.appendChild(name);
+
+    let value = document.createElement("p");
+    value.className = "spec-value";
+    value.innerHTML = specs[id];
+    flex.appendChild(value);
 }

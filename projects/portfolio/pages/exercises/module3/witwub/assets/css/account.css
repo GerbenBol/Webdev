@@ -1,0 +1,71 @@
+:root {
+    --max-width-input: 60%;
+}
+
+h1 {
+    margin: 0;
+}
+
+#contents {
+    width: 50%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.form {
+    width: var(--max-width-input);
+    margin: auto;
+}
+
+#subheader, #loginheader {
+    margin: 1%;
+}
+
+.inputheader {
+    margin: 0;
+    text-align: initial;
+}
+
+input {
+    margin: 0;
+    margin-bottom: 2%;
+    width: 37%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[name="bet"] {
+    width: 20%;
+}
+
+input[name="street"] {
+    width: 70%;
+}
+
+input[name="number"] {
+    width: 26%;
+}
+
+input[name="postal"] {
+    width: 31%;
+}
+
+input[name="city"] {
+    width: 65%;
+}
+
+input[name="phone"], input[name="email"], input[name="name2"] {
+    width: 98.5%;
+}
+
+.button {
+    width: 98.5%;
+    background-color: #1f1e33;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}

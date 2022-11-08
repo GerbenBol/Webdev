@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 2.1.3.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. WitWub
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. WitWub
+- Long time no push, so big push. WitWub has been finished. It completely works, using JS and localStorage. I will now proceed to work on the workshops we have to do.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 2.0.0.0**
 *Branch: development*
 
