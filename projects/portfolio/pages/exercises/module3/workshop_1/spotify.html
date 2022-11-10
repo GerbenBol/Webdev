@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spotify Web Player</title>
+    <link rel="stylesheet" href="assets/css/spotify.css">
+    <script src="assets/js/spotify.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="top">
+            <p id="nowlis">Now playing: -</p>
+            <div id="albums">
+                <img id="teen" src="assets/img/mcr.jpg" title="My Chemical Romance - Teenagers">
+                <img id="came" src="assets/img/came.jpg" title="Camellia - #1f1e33">
+                <img id="elvis" src="assets/img/elvis.jpg" title="Elvis Presley - Suspicious Minds">
+                <img id="mega" src="assets/img/mega.jpg" title="Toby Fox - Megalovania">
+                <img id="parade" src="assets/img/mcr.jpg" title="My Chemical Romance - Welcome to the Black Parade">
+            </div>
+        </div>
+        <div id="bottom">
+            <p>1.</p><p class="name" id="teenagers">My Chemical Romance - Teenagers</p><p class="length"></p>
+            <p>2.</p><p class="name" id="1f1e33">Camellia - #1f1e33</p><p class="length"></p>
+            <p>3.</p><p class="name" id="suspicious">Elvis Presley - Suspicious Minds</p><p class="length"></p>
+            <p>4.</p><p class="name" id="megalovania">Toby Fox - Megalovania</p><p class="length"></p>
+            <p>5.</p><p class="name" id="welcome">My Chemical Romance - Welcome to the Black Parade</p><p class="length"></p>
+        </div>
+        <audio id="teena" src="assets/audio/teenagers.mp3"></audio>
+        <audio id="camellia" src="assets/audio/1f1e33.mp3"></audio>
+        <audio id="minds" src="assets/audio/suspiciousminds.mp3"></audio>
+        <audio id="megalo" src="assets/audio/megalovania.mp3"></audio>
+        <audio id="blackparade" src="assets/audio/blackparade.mp3" onloadedmetadata="setSongLength()"></audio>
+        <script>createSite();</script>
+    </div>
+</body>
+</html>
