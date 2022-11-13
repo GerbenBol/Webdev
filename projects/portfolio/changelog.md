@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 2.4.7.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. WitWub
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. WitWub
+- I have added the possibility to filter your products based on brand, memory, memory type, and maximum resolution. Price and length don't work, because that's a bit harder to code, and I don't have the time to do this. This will be the second-last push before the final exercise of this module, which is a cooperation exercise. I will push again, because for some teachers (all of them) it wasn't clear how to use the Git.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 2.4.6.5**
 *Branch: development*
 

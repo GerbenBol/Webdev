@@ -1,5 +1,5 @@
 [
-    { "type":"Brand", "contains":[ "MSI", "NVidia", "Gigabyte", "Asus", "INNO3D" ] },
+    { "type":"Brand", "contains":[ "MSI", "Gigabyte", "Asus", "INNO3D" ] },
     { "type":"Price", "contains":[ "< €200,-", "€200,- - €500,-", "€500,- - €1.000,-", "> €1.000,-" ] },
     { "type":"Memory Type", "contains":[ "GDDR", "GDDR5", "GDDR6" ] },
     { "type":"Memory", "contains":[ 1, 2, 4, 6, 8, 10, 12, 16, 24, 48 ] },
