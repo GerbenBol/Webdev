@@ -4,5 +4,5 @@
     { "type":"Memory Type", "contains":[ "GDDR", "GDDR5", "GDDR6" ] },
     { "type":"Memory", "contains":[ 1, 2, 4, 6, 8, 10, 12, 16, 24, 48 ] },
     { "type":"Length", "contains":[ "< 172mm", "172mm - 235mm", "235mm - 282mm", "282mm - 320mm", "> 320mm" ] },
-    { "type":"Resolution", "contains":[ "8K", "5K", "4K", "QuadHD", "Full HD", "HD" ] }
+    { "type":"Max Resolution", "contains":[ "8K", "5K", "4K", "QuadHD", "Full HD", "HD" ] }
 ]

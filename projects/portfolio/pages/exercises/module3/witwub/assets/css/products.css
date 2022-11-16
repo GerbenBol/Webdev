@@ -1,0 +1,102 @@
+#contents {
+    width: 80%;
+    height: fit-content;
+    margin: 10px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#specs {
+    width: 25%;
+    height: fit-content;
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+}
+
+#specs:hover {
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.spec {
+    width: 80%;
+    height: fit-content;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.spec:hover {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.type, .name {
+    margin: 0;
+}
+
+#products {
+    width: 70%;
+    height: fit-content;
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#products:hover {
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.product {
+    width: 31%;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.product:hover {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.product img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.inside {
+    padding: 3%;
+}
+
+.inside p {
+    margin-bottom: 0;
+}
+
+.bottom {
+    padding: 3%;
+    margin: auto 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #1f1e33;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}

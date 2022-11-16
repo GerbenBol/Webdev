@@ -4,6 +4,102 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 2.4.7.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. WitWub
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. WitWub
+- I have added the possibility to filter your products based on brand, memory, memory type, and maximum resolution. Price and length don't work, because that's a bit harder to code, and I don't have the time to do this. This will be the second-last push before the final exercise of this module, which is a cooperation exercise. I will push again, because for some teachers (all of them) it wasn't clear how to use the Git.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 2.4.6.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Workshop 1: Musicplayer
+1. Workshop 2: Television
+1. Workshop 3: Responsive
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Musicplayer
+- In this workshop we made a musicplayer like Spotify, and I think I did pretty good. It was a fun challenge.
+
+2. Television
+- In this workshop we made a television screen where we played a YouTube video, and if a button was pressed it had to play a different video. There was a requirement to automatically play the video when opening the page, but since that isn't allowed anymore, I made it differently. This was, again a fun challenge, but the working with CSS for making the tv was harder than actually working with the video element (except for the autoplay).
+
+3. Responsive
+- This workshop was made to make us work with making sites responsive, but I already (partially) used this in my sites. It let us work with percentages, which I already did. I found out it's easier to work with the calc() function in CSS than actually calculating. However, it wasn't at first because I didn't get how the function worked. Once I found out it was pretty simple and easy.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 2.1.3.5**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. WitWub
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. WitWub
+- Long time no push, so big push. WitWub has been finished. It completely works, using JS and localStorage. I will now proceed to work on the workshops we have to do.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
+## **Patch: 2.0.0.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Module 3
+1. Exercise 1: Webshop (WitWub)
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Module 3
+- A wild new folder has appeared! I'll be working in this folder the coming weeks, it will hold all of the things I do for module 3.
+
+2. WitWub
+- Last module (module 2) we had a final exercise, which was making the webshop. This was frontend only, and now we have to expand. It will have to contain a couple more things, and not working with JavaScript is almost going to be impossible. I've been working on this for 3 days now (because I'm a little late with the first push/patch whoops). I've almost finished the detail page, and will finish the last things of that tomorrow. I also hope to make the most part of the order page, and possibly already start making the thank you page.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 1.2.5.13**
 *Branch: development (into merge to master)*
 

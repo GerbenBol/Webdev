@@ -1,0 +1,58 @@
+body {
+    background-color: #1f1e33;
+}
+
+#content {
+    margin: auto;
+    width: 35%;
+    height: fit-content;
+    background-color: #dad9dd;
+    padding: 0;
+    padding-top: 2px;
+}
+
+#nowlis {
+    font-size: 20px;
+    text-align: center;
+}
+
+#albums {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+}
+
+#albums img {
+    width: 25%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#albums img:hover {
+    width: 30%;
+    margin: 1.2px;
+    outline: 2px solid white;
+}
+
+.active-img {
+    width: 30%;
+    margin: 1.2px;
+    outline: 2px solid white;
+}
+
+#bottom {
+    margin: 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.name {
+    grid-column: 2 / 5;
+    cursor: pointer;
+}
+
+.active-name {
+    color: green;
+}
