@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+body {
+    margin: 0;
+    background-image: linear-gradient(white, rgb(190, 255, 190));
+}
+
+* {
+    font-family: "merriweather";
+}
+
+h1 {
+    color: white;
+    font-size: 7rem;
+}
+
+/*Logo style,
+ give this class to something and the div inside it will have the logo background*/
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 5rem;
+}
+
+.logo > div {
+    width: 90%;
+    height: 90%;
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*all header styles*/
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+}
+
+#header-top {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 20%;
+}
+
+#navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 80%;
+    height: 100%;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    display: none;
+}
+
+#navigation > a {
+    font-size: 1.3rem;
+    color: forestgreen;
+    text-shadow: gray 1px 1px 20px;
+}
+
+#navigation > a:hover {
+    color: darkseagreen;
+}
+
+#header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/home_garden.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+}
+
+/*all footer styles*/
+#footer-top {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-height: 20%;
+    background: darkseagreen;
+}
+
+#footer-top > .logo {
+    min-width: 15vw;
+    height: 30vh;
+}
+
+#footer-top > div {
+    margin: auto;
+    min-width: 25%;
+}
+
+.h2-white {
+    color: white;
+}
+
+/*everything under the white class will be white*/
+.white > * {
+    color: white;
+    text-decoration: none;
+}
+
+/*list in de footer gets margin*/
+.white > li {
+    margin: 2vh;
+    font-size: 1.6vw;
+}
+
+#footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7bba7b;
+}
+
+#footer-bottom > p {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 1250px) {
+    #navigation > a {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    #navigation > a {
+        font-size: 1.5rem;
+        text-align: center;
+        text-justify: auto;
+        background-color: whitesmoke;
+        border: 1vw solid snow;
+        line-height: 15vh;
+        min-height: auto;
+        width: 80%;
+        height: 15%;
+    }
+
+    #navigation {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .checkbtn {
+        position: relative;
+        z-index: 1;
+        right: 1%;
+        display: block;
+        color: forestgreen;
+        font-size: 2rem;
+    }
+
+    #check:checked ~ #navigation {
+        display: flex;
+    }
+
+    #footer-top {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .white > li > * {
+        font-size: 0.9rem;
+    }
+
+    .h2-white {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    #footer-top > .logo {
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 4rem;
+    }
+}

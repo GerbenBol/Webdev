@@ -55,7 +55,8 @@ body {
 
 @media all and (max-width: 768px) {
     #main {
-        width: 100%;
+        width: 96.5%;
+        margin-bottom: 5%;
     }
 
     #aside {

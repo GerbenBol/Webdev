@@ -43,6 +43,7 @@ body {
 
 #bottom {
     margin: 15px;
+    margin-top: 0;
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -55,4 +56,21 @@ body {
 
 .active-name {
     color: green;
+}
+
+#controls {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#play {
+    cursor: pointer;
+    margin: auto;
+}
+
+#stop {
+    cursor: pointer;
+    margin: auto;
 }

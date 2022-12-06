@@ -4,6 +4,43 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 3.3.2.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Groupsexercise module 3
+1. Module 4 Workshop 1
+1. Module 4 Workshop 2
+1. Module 4 Workshop 3
+1. Module 4 Workshop 4
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Groupsexercise
+- We made a groupsexercise, which was a full on project with a team. We were a good team, and together we made an amazing site, which was satisfying for the customer.
+
+2. Workshop 1
+- An easy exercise which introduces JavaScript variables, but I already knew those.
+
+3. Workshop 2
+- Another easy exercise which is making a piano working with sounds.
+
+4. Workshop 3
+- This exercise was a bit harder than the previous two, we had to make a calculator. It didn't take me very long, but it was a good exercise nonetheless.
+
+5. Workshop 4
+- I started working on workshop 4, which is an optional workshop. It's making a game of noughts and crosses, which is pretty fun.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 2.4.7.5**
 *Branch: development*
 

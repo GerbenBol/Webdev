@@ -2,6 +2,7 @@ let players = [];
 let textPlayers = [];
 let imgPlayers = [];
 let currentPlaying = "-";
+let playing = false;
 
 function createSite() {
     players[0] = document.getElementById("teena");
@@ -65,6 +66,7 @@ function startPlaying(key) {
     audio.volume = 0.1;
     audio.play();
     keepTrackOfTime(index);
+    playing = true;
 }
 
 async function keepTrackOfTime(index) {
@@ -105,7 +107,8 @@ function stopPlaying() {
     }
 }
 
-function setSongLength() {
+async function setSongLength() {
+    await new Promise(r => setTimeout(r, 100));
     let teen = document.getElementById("teena");
     let came = document.getElementById("camellia");
     let elvis = document.getElementById("minds");
@@ -132,4 +135,37 @@ function getSongLength(time) {
         secs = "0" + String(secs);
 
     return mins + ":" + secs;
+}
+
+function playPause() {
+    let index;
+
+    if (currentPlaying == "-") {
+        index = 0;
+        currentPlaying = "My Chemical Romance - Teenagers";
+    } else if (currentPlaying == "My Chemical Romance - Teenagers") {
+        index = 0;
+    } else if (currentPlaying == "Camellia - #1f1e33") {
+        index = 1;
+    } else if (currentPlaying == "Elvis Presley - Suspicious Minds") {
+        index = 2;
+    } else if (currentPlaying == "Toby Fox - Megalovania") {
+        index = 3;
+    } else if (currentPlaying == "My Chemical Romance - Welcome to the Black Parade") {
+        index = 4;
+    }
+
+    if (playing) {
+        playing = false;
+        players[index].pause();
+    } else {
+        playing = true;
+        
+        let audio = players[index];
+        textPlayers[index].className = "name active-name";
+        imgPlayers[index].className = "active-img";
+        audio.volume = 0.1;
+        audio.play();
+        keepTrackOfTime(index);
+    }
 }

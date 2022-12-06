@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <!-- icon file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style for the header and the footer -->
+    <link rel="stylesheet" href="assets/css/template.css">
+    <!-- style for the content -->
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <!-- js for sending data -->
+    <script src="assets/js/contact.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-top">
+            <a href="index.html" class="logo"><div></div></a>
+            <input type="checkbox" id="check">
+            <label class="checkbtn" for="check"><i class='fa fa-list'></i></label>
+            <div id="navigation">
+                <!-- all the links for the different pages -->
+                <a href="index.html"><i class='fa fa-envira'></i> Home</a>
+                <a href="over-ons.html"><i class='fa fa-envira'></i> Over ons</a>
+                <a href="diensten.html"><i class='fa fa-envira'></i> Diensten</a>
+                <a href="recensies.html"><i class='fa fa-envira'></i> Recensies</a>
+                <a href="contact.html"><i class='fa fa-envira'></i> Contact</a>
+                <a href="tel:06XXXXXXXX"> Bel Ons 06-XXXXXXXX</a>
+            </div>
+        </div>
+        
+        <!-- shows what page you are on and has a background -->
+        <div id="header-bottom">
+            <h1>Contact</h1>
+        </div>
+    </header>
+
+    <!-- container is where all the content is shown -->
+    <div id="container">
+        <p>We streven ernaar om constant in contact te staan met onze klanten totdat de klus geklaard is. Als u vragen of speciale verzoeken heeft, stuur ons dan een bericht. Voor een vrijblijvende offerte kunt u contact met ons opnemen wanneer het u uitkomt. Wij zijn u graag van dienst!</p>
+        <div id="content">
+            <div id="left">
+                <div id="form">
+                    <input type="text" id="naam" placeholder="Naam" />
+                    <input type="text" id="email" placeholder="E-mailadres" />
+                    <input type="text" id="tel" placeholder="Telefoonnummer" />
+                    <input type="text" id="adres" placeholder="Adres" />
+                    <textarea id="msg" placeholder="Bericht"></textarea>
+                </div>
+                <div id="submit" onclick="sendData()">Stuur bericht</div>
+                <p id="sentp">Bericht verzonden!</p>
+            </div>
+
+            <div id="right">
+                <div id="button">
+                    Bel ons voor een afspraak!<br />
+                    06-XXXXXXXX
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer-top">
+            <a href="index.html" class="logo"><div></div></a>
+            <div>
+                <!-- list of open hours -->
+                <h2 class="h2-white">Tijden</h2>
+                <ul class="white">
+                    <li>Maandag - vrijdag: <b>07.00 - 17.00 uur</b></li>
+                    <li>Zaterdag: <b>Op afspraak</b></li>
+                    <li>Zondag: <b>Gesloten</b></li>
+                </ul>
+            </div>
+
+            <div>
+                <!-- contact list -->
+                <h2 class="h2-white">Contact</h2>
+                <ul class="white">
+                    <li class="white"><a href="tel:06XXXXXXXX"><i class='fa fa-phone-square'></i> tel - 06-XXXXXXXX</a></li>
+                    <li class="white"><a href="contact.html"><i class='fa fa-envelope-open'></i> email - hendrikhogendijkhoveniers@gmail.com</a></li>
+                    <li class="white">
+                        <a href="https://www.google.nl/maps/place/Huis+ter+Heide/@52.1185682,5.2451488,14z/data=!3m1!4b1!4m5!3m4!1s0x47c64262e56336f1:0xf4542fc533a99f33!8m2!3d52.1119467!4d5.2539372?hl=en">
+                            <i class='fa fa-map-marker'></i> locatie - 7143 HH Huis Ter Heide
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <!-- copyright at the bottom of the screen -->
+            <p>Hendrik Hogendijk Hoveniers &copy2022</p>
+        </div>
+    </footer>
+</body>
+</html>
