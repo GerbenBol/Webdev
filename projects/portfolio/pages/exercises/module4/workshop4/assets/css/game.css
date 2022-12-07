@@ -5,6 +5,27 @@ body {
     font-family: 'Merriweather';
 }
 
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#reset {
+    background-color: #dad9dd;
+    color: initial;
+    margin: auto;
+    margin-top: 1.3%;
+    width: 10%;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#reset p {
+    margin: 0;
+}
+
 #players {
     width: 25%;
     margin: auto;
@@ -43,4 +64,16 @@ body {
 .field img {
     margin: 10%;
     width: 80%;
+}
+
+#console {
+    width: 10%;
+    margin: auto;
+    margin-right: 2%;
+    color: white;
+    text-align: right;
+}
+
+#console p {
+    margin: 0;
 }

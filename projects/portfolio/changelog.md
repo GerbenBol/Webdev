@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 3.3.4.0**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Workshop 4
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop 4
+- I did a lot of work for workshop 4. The game is now playable, and you can win and draw. I'm working on a couple of extra features now, but after that I'm going to do something else. I don't know what yet.
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 3.3.2.0**
 *Branch: development*
 
