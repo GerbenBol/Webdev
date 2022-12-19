@@ -2,14 +2,23 @@ let fields = [];
 let cn;
 let activePlayer = 1;
 let wincons = [];
+let p1i;
 let p1n;
+let p2i;
 let p2n;
+let sfx;
+let bgm;
 let gameOver = false;
 init();
 
 function init() {
     fields = document.getElementsByClassName("field");
     cn = document.getElementById("console");
+    sfx = document.getElementById("sfx");
+    bgm = document.getElementById("bgm");
+    sfx.volume = 0.1;
+    bgm.volume = 0.1;
+    document.addEventListener("mousedown", function() { bgm.play(); });
 
     for (let i = 0; i < fields.length; i++) {
         fields[i].addEventListener("click", activate.bind(null, i))
@@ -24,7 +33,9 @@ function init() {
     params = window.location.href.split("?");
     params = params[1].split("&");
 
+    p1i = params[0].split("=")[1].replace("%20", " ");
     p1n = params[1].split("=")[1].replace("%20", " ");
+    p2i = params[2].split("=")[1].replace("%20", " ");
     p2n = params[3].split("=")[1].replace("%20", " ");
 
     writeToConsole("Game initialized");
@@ -111,14 +122,19 @@ function endGame(winOrDraw) {
     if (winOrDraw == "win") {
         if (activePlayer == 1) {
             msg = p1n + " wins!";
+            sfx.src = "assets/audio/" + p1i + ".mp3";
         } else {
             msg = p2n + " wins!";
+            sfx.src = "assets/audio/" + p2i + ".mp3";
         }
     } else {
         msg = "It's a draw!";
     }
     writeToConsole(msg);
     killBoard();
+    bgm.pause();
+    sfx.play();
+    sfx.addEventListener("ended", function() { bgm.play(); });
 }
 
 function nextPlayer() {

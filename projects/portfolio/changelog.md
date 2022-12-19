@@ -4,6 +4,27 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 3.5.7.3**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Workshop 4
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop 4
+- Added SFX and BGM
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 3.5.6.3**
 *Branch: development*
 
