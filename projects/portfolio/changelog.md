@@ -4,6 +4,31 @@ I've started this project because I was bored, and thus decided to just start wo
 
 ------------------------------
 
+## **Patch: 3.5.6.3**
+*Branch: development*
+
+------------------------------
+
+### *Changes this patch:*
+1. Workshop 4
+1. Discord bot (qoute)
+
+------------------------------
+
+### *More in-depth information*
+------------------------------
+1. Workshop 4
+- I've finished my work on workshop 4, but then decided I wanted to add 1 more thing. So I did, and now it's fully functional. I might add SFX and/or background music.
+
+2. Qoute
+- Because I had a week left, I decided to challenge myself and made a Discord bot. The bot is used for storing quotes. It should always be online, but currently isn't because I'm an idiot... It was a very fun experiment, and came out pretty well in my opinion. The bot is on a different Git repo: https://github.com/GerbenBol/qoute
+
+------------------------------
+
+That marks the end of this patch, thanks for reading!
+
+------------------------------
+
 ## **Patch: 3.3.4.0**
 *Branch: development*
 

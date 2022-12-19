@@ -2,6 +2,9 @@ let fields = [];
 let cn;
 let activePlayer = 1;
 let wincons = [];
+let p1n;
+let p2n;
+let gameOver = false;
 init();
 
 function init() {
@@ -18,8 +21,14 @@ function init() {
         .then((r) => r.json())
         .then((d) => setWincons(d));
 
+    params = window.location.href.split("?");
+    params = params[1].split("&");
+
+    p1n = params[1].split("=")[1].replace("%20", " ");
+    p2n = params[3].split("=")[1].replace("%20", " ");
+
     writeToConsole("Game initialized");
-    writeToConsole("Player 1's turn");
+    writeToConsole(p1n + "'s turn");
 }
 
 function setWincons(data) {
@@ -27,16 +36,18 @@ function setWincons(data) {
 }
 
 function activate(id) {
-    let field = fields[id];
+    if (!gameOver) {
+        let field = fields[id];
 
-    if (field.children.length == 0) {
-        setField(field);
-        checkWin();
-        checkDraw();
-        let lastMsg = cn.children[cn.children.length - 1].innerHTML;
+        if (field.children.length == 0) {
+            setField(field);
+            checkWin();
+            checkDraw();
+            let lastMsg = cn.children[cn.children.length - 1].innerHTML;
 
-        if (lastMsg.substring(lastMsg.length - 5) != "wins!" && lastMsg.substring(lastMsg.length - 5) != "draw!") {
-            nextPlayer();
+            if (lastMsg.substring(lastMsg.length - 5) != "wins!" && lastMsg.substring(lastMsg.length - 5) != "draw!") {
+                nextPlayer();
+            }
         }
     }
 }
@@ -89,8 +100,6 @@ function checkDraw() {
         cons[cons.length] = possible;
     });
 
-    console.log(cons);
-
     if (!cons.includes(true)) {
         endGame("draw");
     }
@@ -100,11 +109,16 @@ function endGame(winOrDraw) {
     let msg = "";
 
     if (winOrDraw == "win") {
-        msg = "Player " + activePlayer + " wins!";
+        if (activePlayer == 1) {
+            msg = p1n + " wins!";
+        } else {
+            msg = p2n + " wins!";
+        }
     } else {
         msg = "It's a draw!";
     }
     writeToConsole(msg);
+    killBoard();
 }
 
 function nextPlayer() {
@@ -115,12 +129,12 @@ function nextPlayer() {
         activePlayer = 1;
         player1.className = "";
         player2.className = "inactive";
-        writeToConsole("Player 1's turn");
+        writeToConsole(p1n + "'s turn");
     } else {
         activePlayer++;
         player2.className = "";
         player1.className = "inactive";
-        writeToConsole("Player 2's turn");
+        writeToConsole(p2n + "'s turn");
     }
 }
 
@@ -138,4 +152,18 @@ function reset() {
             }
         }
     }
+}
+
+function killBoard() {
+    gameOver = true;
+    let css = ".field:hover { cursor: initial; }";
+    let style = document.createElement("style");
+
+    if (style.styleSheet) {
+        style.styleSheet.cssText = css;
+    } else {
+        style.appendChild(document.createTextNode(css));
+    }
+
+    document.getElementsByTagName("head")[0].appendChild(style);
 }
